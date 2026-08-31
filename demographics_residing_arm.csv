@@ -1,0 +1,802 @@
+Year,Country of Origin Code,Country of Asylum Code,Country of Origin Name,Country of Asylum Name,Population Type,location,urbanRural,accommodationType,Female 0-4,Female 5-11,Female 12-17,Female 18-59,Female 60 or more,Female Unknown,Female Total,Male 0-4,Male 5-11,Male 12-17,Male 18-59,Male 60 or more,Male Unknown,Male Total,Total
+2001,AZE,ARM,Azerbaijan,Armenia,REF,Aragatsotn,R,U,86,147,126,2458,1725,0,4542,89,155,132,1844,1215,0,3435,7977
+2001,AZE,ARM,Azerbaijan,Armenia,REF,Ararat,R,U,804,1170,1003,14114,11936,0,29027,816,1207,1034,11958,9084,0,24099,53126
+2001,AZE,ARM,Azerbaijan,Armenia,REF,Armavir,R,U,153,207,177,5903,10590,0,17030,154,230,198,2944,4829,0,8355,25385
+2001,AZE,ARM,Azerbaijan,Armenia,REF,Gegharkunik,R,U,624,850,728,6472,6366,0,15040,695,822,705,5666,5772,0,13660,28700
+2001,AZE,ARM,Azerbaijan,Armenia,REF,Kotayk,R,U,236,472,405,7689,8857,0,17659,280,502,430,7302,7622,0,16136,33795
+2001,AZE,ARM,Azerbaijan,Armenia,REF,Lori,R,U,244,311,266,3942,4502,0,9265,278,345,295,3933,4030,0,8881,18146
+2001,AZE,ARM,Azerbaijan,Armenia,REF,Shirak,R,U,74,133,114,1075,808,0,2204,59,120,102,1022,644,0,1947,4151
+2001,AZE,ARM,Azerbaijan,Armenia,REF,Syunik,R,U,257,363,312,3589,3481,0,8002,256,299,256,3540,3384,0,7735,15737
+2001,AZE,ARM,Azerbaijan,Armenia,REF,Tavush,R,U,258,332,285,2420,2717,0,6012,289,333,285,2389,2395,0,5691,11703
+2001,AZE,ARM,Azerbaijan,Armenia,REF,Vayots Dzor,R,U,140,150,128,946,986,0,2350,142,155,133,895,873,0,2198,4548
+2001,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan,U,U,843,1282,1099,14873,14062,0,32159,953,1072,918,13670,12287,0,28900,61059
+2001,IRN,ARM,Iran (Islamic Republic of),Armenia,REF,Yerevan,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2001,IRQ,ARM,Iraq,Armenia,REF,Yerevan,U,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2002,AZE,ARM,Azerbaijan,Armenia,REF,Aragatsotn,R,U,0,0,0,0,0,4012,4012,0,0,0,0,0,3418,3418,7430
+2002,AZE,ARM,Azerbaijan,Armenia,REF,Ararat,R,U,0,0,0,0,0,26857,26857,0,0,0,0,0,22879,22879,49736
+2002,AZE,ARM,Azerbaijan,Armenia,REF,Armavir,R,U,0,0,0,0,0,13344,13344,0,0,0,0,0,11367,11367,24711
+2002,AZE,ARM,Azerbaijan,Armenia,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55505
+2002,AZE,ARM,Azerbaijan,Armenia,REF,Gegharkunik,R,U,0,0,0,0,0,14852,14852,0,0,0,0,0,12651,12651,27503
+2002,AZE,ARM,Azerbaijan,Armenia,REF,Kotayk,R,U,0,0,0,0,0,17054,17054,0,0,0,0,0,14527,14527,31581
+2002,AZE,ARM,Azerbaijan,Armenia,REF,Lori,R,U,0,0,0,0,0,9317,9317,0,0,0,0,0,7937,7937,17254
+2002,AZE,ARM,Azerbaijan,Armenia,REF,Shirak,R,U,0,0,0,0,0,2118,2118,0,0,0,0,0,1805,1805,3923
+2002,AZE,ARM,Azerbaijan,Armenia,REF,Syunik,R,U,0,0,0,0,0,8031,8031,0,0,0,0,0,6842,6842,14873
+2002,AZE,ARM,Azerbaijan,Armenia,REF,Tavush,R,U,0,0,0,0,0,5847,5847,0,0,0,0,0,4980,4980,10827
+2002,AZE,ARM,Azerbaijan,Armenia,REF,Vayots Dzor,R,U,0,0,0,0,0,2265,2265,0,0,0,0,0,1930,1930,4195
+2002,IRN,ARM,Iran (Islamic Republic of),Armenia,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2002,IRQ,ARM,Iraq,Armenia,REF,Yerevan,U,U,0,0,0,0,0,0,0,0,0,0,6,0,0,6,6
+2003,AZE,ARM,Azerbaijan,Armenia,REF,Aragatsotn,R,U,0,0,0,0,0,3925,3925,0,0,0,0,0,3344,3344,7269
+2003,AZE,ARM,Azerbaijan,Armenia,REF,Ararat,R,U,0,0,0,0,0,25807,25807,0,0,0,0,0,21983,21983,47790
+2003,AZE,ARM,Azerbaijan,Armenia,REF,Armavir,R,U,0,0,0,0,0,13144,13144,0,0,0,0,0,11196,11196,24340
+2003,AZE,ARM,Azerbaijan,Armenia,REF,Gegharkunik,R,U,0,0,0,0,0,14494,14494,0,0,0,0,0,12346,12346,26840
+2003,AZE,ARM,Azerbaijan,Armenia,REF,Kotayk,R,U,0,0,0,0,0,16637,16637,0,0,0,0,0,14172,14172,30809
+2003,AZE,ARM,Azerbaijan,Armenia,REF,Lori,R,U,0,0,0,0,0,9103,9103,0,0,0,0,0,7755,7755,16858
+2003,AZE,ARM,Azerbaijan,Armenia,REF,Shirak,R,U,0,0,0,0,0,2085,2085,0,0,0,0,0,1776,1776,3861
+2003,AZE,ARM,Azerbaijan,Armenia,REF,Syunik,R,U,0,0,0,0,0,7703,7703,0,0,0,0,0,6562,6562,14265
+2003,AZE,ARM,Azerbaijan,Armenia,REF,Tavush,R,U,0,0,0,0,0,5507,5507,0,0,0,0,0,4691,4691,10198
+2003,AZE,ARM,Azerbaijan,Armenia,REF,Vayots Dzor,R,U,0,0,0,0,0,2196,2196,0,0,0,0,0,1870,1870,4066
+2003,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52954
+2003,IRN,ARM,Iran (Islamic Republic of),Armenia,REF,Yerevan,U,U,0,0,0,0,0,0,0,0,0,5,0,0,0,5,5
+2003,IRQ,ARM,Iraq,Armenia,ASY,Yerevan,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25
+2003,IRQ,ARM,Iraq,Armenia,REF,Yerevan,U,U,0,0,0,9,0,0,9,0,0,0,25,0,0,25,34
+2003,SYR,ARM,Syrian Arab Republic,Armenia,ASY,Yerevan,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2004,AZE,ARM,Azerbaijan,Armenia,REF,Aragatsotn,R,U,0,0,0,0,0,3871,3871,0,0,0,0,0,3297,3297,7168
+2004,AZE,ARM,Azerbaijan,Armenia,REF,Ararat,R,U,0,0,0,0,0,25408,25408,0,0,0,0,0,21643,21643,47051
+2004,AZE,ARM,Azerbaijan,Armenia,REF,Armavir,R,U,0,0,0,0,0,13057,13057,0,0,0,0,0,11123,11123,24180
+2004,AZE,ARM,Azerbaijan,Armenia,REF,Gegharkunik,R,U,0,0,0,0,0,14311,14311,0,0,0,0,0,12190,12190,26501
+2004,AZE,ARM,Azerbaijan,Armenia,REF,Kotayk,R,U,0,0,0,0,0,16381,16381,0,0,0,0,0,13955,13955,30336
+2004,AZE,ARM,Azerbaijan,Armenia,REF,Lori,R,U,0,0,0,0,0,9017,9017,0,0,0,0,0,7681,7681,16698
+2004,AZE,ARM,Azerbaijan,Armenia,REF,Shirak,R,U,0,0,0,0,0,2066,2066,0,0,0,0,0,1759,1759,3825
+2004,AZE,ARM,Azerbaijan,Armenia,REF,Syunik,R,U,0,0,0,0,0,7535,7535,0,0,0,0,0,6418,6418,13953
+2004,AZE,ARM,Azerbaijan,Armenia,REF,Tavush,R,U,0,0,0,0,0,5444,5444,0,0,0,0,0,4637,4637,10081
+2004,AZE,ARM,Azerbaijan,Armenia,REF,Vayots Dzor,R,U,0,0,0,0,0,2123,2123,0,0,0,0,0,1808,1808,3931
+2004,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51377
+2004,IRN,ARM,Iran (Islamic Republic of),Armenia,REF,Yerevan,U,U,0,0,0,0,0,0,0,0,0,5,0,0,0,5,5
+2004,IRQ,ARM,Iraq,Armenia,ASY,Yerevan,U,U,0,6,6,20,5,0,37,0,8,0,19,0,0,27,64
+2004,IRQ,ARM,Iraq,Armenia,REF,Yerevan,U,U,0,0,9,37,10,0,56,0,7,7,51,6,0,71,127
+2005,AZE,ARM,Azerbaijan,Armenia,REF,Aragatsotn,R,U,0,0,0,0,0,4068,4068,0,0,0,0,0,3068,3068,7136
+2005,AZE,ARM,Azerbaijan,Armenia,REF,Ararat,R,U,0,0,0,0,0,26491,26491,0,0,0,0,0,19984,19984,46475
+2005,AZE,ARM,Azerbaijan,Armenia,REF,Armavir,R,U,0,0,0,0,0,13709,13709,0,0,0,0,0,10342,10342,24051
+2005,AZE,ARM,Azerbaijan,Armenia,REF,Gegharkunik,R,U,0,0,0,0,0,14947,14947,0,0,0,0,0,11275,11275,26222
+2005,AZE,ARM,Azerbaijan,Armenia,REF,Goris,U,U,0,0,0,23,5,0,28,0,0,0,28,5,0,33,61
+2005,AZE,ARM,Azerbaijan,Armenia,REF,Kapan,U,U,0,0,0,30,8,0,38,0,0,0,26,13,0,39,77
+2005,AZE,ARM,Azerbaijan,Armenia,REF,Kotayk,R,U,0,0,0,0,0,17109,17109,0,0,0,0,0,12906,12906,30015
+2005,AZE,ARM,Azerbaijan,Armenia,REF,Lori,R,U,0,0,0,0,0,9451,9451,0,0,0,0,0,7130,7130,16581
+2005,AZE,ARM,Azerbaijan,Armenia,REF,Meghri,U,U,0,0,0,0,0,0,0,0,0,0,9,0,0,9,9
+2005,AZE,ARM,Azerbaijan,Armenia,REF,Shirak,R,U,0,0,0,0,0,2159,2159,0,0,0,0,0,1629,1629,3788
+2005,AZE,ARM,Azerbaijan,Armenia,REF,Sisian,U,U,0,0,0,0,0,0,0,0,0,0,0,5,0,5,5
+2005,AZE,ARM,Azerbaijan,Armenia,REF,Syunik (rural),R,U,0,0,0,43,5,0,48,0,0,0,48,16,0,64,112
+2005,AZE,ARM,Azerbaijan,Armenia,REF,Tavush,R,U,0,0,0,0,0,5662,5662,0,0,0,0,0,4271,4271,9933
+2005,AZE,ARM,Azerbaijan,Armenia,REF,Vayots Dzor,R,U,0,0,0,0,0,2232,2232,0,0,0,0,0,1684,1684,3916
+2005,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan,U,U,0,0,0,0,0,29038,29038,0,0,0,0,0,21905,21905,50943
+2005,IRN,ARM,Iran (Islamic Republic of),Armenia,REF,Yerevan,U,U,0,0,0,0,0,0,0,0,0,5,0,0,0,5,5
+2005,IRQ,ARM,Iraq,Armenia,ASY,Yerevan,U,U,0,9,7,11,5,0,32,0,5,6,21,0,0,32,64
+2005,IRQ,ARM,Iraq,Armenia,REF,Yerevan,U,U,0,12,11,61,21,0,105,5,12,10,77,9,0,113,218
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Agarak,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Aragatsotn marz,R,U,0,0,0,0,0,3637,3637,0,0,0,0,0,3495,3495,7132
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Ararat city,U,U,0,0,0,11,0,0,11,0,0,0,5,0,0,5,16
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Ararat marz,R,U,0,0,8,207,66,0,281,0,0,11,224,34,0,269,550
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Armavir marz,R,U,0,0,0,0,0,12236,12236,0,0,0,0,0,11756,11756,23992
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Artashat,U,U,0,0,0,26,8,0,34,0,0,0,15,5,0,20,54
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Artik,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Berd,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Dilijan,U,U,0,0,0,5,7,0,12,0,0,0,5,0,0,5,17
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Gegharkunik,R,U,0,0,0,42,6,0,48,0,0,0,60,5,0,65,113
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Goris,U,U,0,0,0,18,5,0,23,0,0,0,26,5,0,31,54
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Gyumri,U,U,0,0,0,12,5,0,17,0,0,0,23,0,0,23,40
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Ijevan,U,U,0,0,0,0,0,0,0,0,0,0,8,0,0,8,8
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Kajaran,U,U,0,0,0,6,5,0,11,0,0,0,5,0,0,5,16
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Kapan,U,U,0,0,0,26,10,0,36,0,0,0,28,5,0,33,69
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Kotayk marz,R,U,0,0,0,0,0,15206,15206,0,0,0,0,0,14611,14611,29817
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Lori marz,R,U,0,0,0,39,11,0,50,0,0,0,50,6,0,56,106
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Masis,U,U,0,0,0,21,10,0,31,0,0,0,13,5,0,18,49
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Meghri,U,U,0,0,0,8,0,0,8,0,0,0,0,0,0,0,8
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Noyemberyan,U,U,0,0,0,6,0,0,6,0,0,0,0,0,0,0,6
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Sevan,U,U,0,0,0,5,0,0,5,0,0,0,0,5,0,5,10
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Shirak marz,R,U,0,0,0,9,0,0,9,0,0,0,5,5,0,10,19
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Spitak,U,U,0,0,0,9,0,0,9,0,0,0,0,5,0,5,14
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Stepanavan,U,U,0,0,0,10,0,0,10,0,0,0,14,0,0,14,24
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Syunik marz,R,U,0,0,0,30,11,0,41,0,0,0,39,0,0,39,80
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Tashir,U,U,0,0,0,5,0,0,5,0,0,0,7,0,0,7,12
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Tavush marz,R,U,0,0,0,84,22,0,106,0,0,5,61,11,0,77,183
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Vanadzor,U,U,0,0,0,6,0,0,6,0,0,0,0,0,0,0,6
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Vayits-Dzor marz,R,U,0,0,0,0,0,0,0,0,0,0,9,0,0,9,9
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Vedi,U,U,0,0,0,18,8,0,26,0,0,0,8,5,0,13,39
+2006,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan,U,U,0,0,0,0,0,25890,25890,0,0,0,0,0,24876,24876,50766
+2006,IRN,ARM,Iran (Islamic Republic of),Armenia,REF,Yerevan,U,U,0,0,0,0,0,0,0,0,0,0,6,0,0,6,6
+2006,IRQ,ARM,Iraq,Armenia,ASY,Yerevan,U,U,8,0,0,20,12,0,40,0,5,6,19,5,0,35,75
+2006,IRQ,ARM,Iraq,Armenia,REF,Yerevan,U,U,8,19,30,130,37,0,224,11,19,25,158,22,0,235,459
+2006,ISR,ARM,Israel,Armenia,REF,Yerevan,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2006,LBN,ARM,Lebanon,Armenia,REF,Yerevan,U,U,0,0,0,6,0,0,6,0,0,0,8,0,0,8,14
+2006,TUR,ARM,Türkiye,Armenia,REF,Yerevan,U,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Abovyan,U,U,0,0,0,74,50,0,124,0,0,0,71,14,0,85,209
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Agarak,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Aparan,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Aragatsotn marz,R,U,0,0,0,26,16,0,42,0,0,0,21,6,0,27,69
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Ararat city,U,U,0,0,0,12,0,0,12,0,0,0,5,0,0,5,17
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Ararat marz,R,U,0,0,0,240,77,0,317,0,0,0,255,41,0,296,613
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Armavir city,U,U,0,0,0,0,0,0,0,0,0,0,8,0,0,8,8
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Armavir marz,R,U,0,0,0,31,22,0,53,0,0,0,24,8,0,32,85
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Artashat,U,U,0,0,0,26,8,0,34,0,0,0,15,5,0,20,54
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Artik,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Ashtarak,U,U,0,0,0,11,0,0,11,0,0,0,13,0,0,13,24
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Berd,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Byureghavan,U,U,0,0,0,21,13,0,34,0,0,0,24,6,0,30,64
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Charentsavan,U,U,0,0,0,17,5,0,22,0,0,0,15,0,0,15,37
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Dilijan,U,U,0,0,0,5,7,0,12,0,0,0,5,0,0,5,17
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Gavar,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Gegharkunik,R,U,0,0,0,62,11,0,73,0,0,0,96,11,0,107,180
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Goris,U,U,0,0,0,18,5,0,23,0,0,0,26,5,0,31,54
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Gyumri,U,U,0,0,0,12,5,0,17,0,0,0,23,0,0,23,40
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Hrazdan,U,U,0,0,0,24,6,0,30,0,0,0,19,5,0,24,54
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Ijevan,U,U,0,0,0,0,0,0,0,0,0,0,8,0,0,8,8
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Kajaran,U,U,0,0,0,6,5,0,11,0,0,0,5,0,0,5,16
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Kapan,U,U,0,0,0,26,10,0,36,0,0,0,28,5,0,33,69
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Kotayk marz,R,U,0,0,0,122,64,0,186,0,0,0,137,31,0,168,354
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Lori marz,R,U,0,0,0,38,12,0,50,0,0,0,49,7,0,56,106
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Masis,U,U,0,0,0,41,27,0,68,0,0,0,39,13,0,52,120
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Meghri,U,U,0,0,0,8,0,0,8,0,0,0,0,0,0,0,8
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Metsamor,U,U,0,0,0,10,10,0,20,0,0,0,12,5,0,17,37
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Nor Hach,U,U,0,0,0,21,13,0,34,0,0,0,15,6,0,21,55
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Noyemberyan,U,U,0,0,0,6,0,0,6,0,0,0,0,0,0,0,6
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Sevan,U,U,0,0,0,6,0,0,6,0,0,0,5,0,0,5,11
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Shirak marz,R,U,0,0,0,9,0,0,9,0,0,0,5,5,0,10,19
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Spitak,U,U,0,0,0,9,0,0,9,0,0,0,0,5,0,5,14
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Stepanavan,U,U,0,0,0,10,0,0,10,0,0,0,14,0,0,14,24
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Syunik marz,R,U,0,0,0,30,11,0,41,0,0,0,39,0,0,39,80
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Talin,U,U,0,0,0,13,5,0,18,0,0,0,8,5,0,13,31
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Tashir,U,U,0,0,0,5,0,0,5,0,0,0,7,0,0,7,12
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Tavush marz,R,U,0,0,0,82,24,0,106,0,0,0,62,15,0,77,183
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Vagharshapat,U,U,0,0,0,27,11,0,38,0,0,0,30,5,0,35,73
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Vanadzor,U,U,0,0,0,6,0,0,6,0,0,0,0,0,0,0,6
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Vardenis,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Vayits-Dzor marz,R,U,0,0,0,0,0,0,0,0,0,0,9,0,0,9,9
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Vedi,U,U,0,0,0,19,7,0,26,0,0,0,8,5,0,13,39
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Yeghvard,U,U,0,0,0,15,0,0,15,0,0,0,14,0,0,14,29
+2007,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan,U,U,0,0,0,318,218,0,536,0,0,0,344,71,0,415,951
+2007,IRN,ARM,Iran (Islamic Republic of),Armenia,ASY,Yerevan,U,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2007,IRN,ARM,Iran (Islamic Republic of),Armenia,REF,Yerevan,U,U,0,0,0,0,0,0,0,0,0,0,7,0,0,7,7
+2007,IRQ,ARM,Iraq,Armenia,ASY,Yerevan,U,U,5,0,7,28,0,0,40,7,0,9,29,7,0,52,92
+2007,IRQ,ARM,Iraq,Armenia,REF,Yerevan,U,U,18,27,35,223,53,0,356,19,25,34,248,36,0,362,718
+2007,ISR,ARM,Israel,Armenia,REF,Yerevan,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2007,LBN,ARM,Lebanon,Armenia,REF,Yerevan,U,U,0,0,0,6,0,0,6,0,0,0,8,0,0,8,14
+2007,TUR,ARM,Türkiye,Armenia,REF,Yerevan,U,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Abovyan,U,U,0,0,0,44,30,0,74,0,0,0,31,8,0,39,113
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Agarak,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Aparan,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Aragatsotn marz,R,U,0,0,0,22,16,0,38,0,0,0,20,6,0,26,64
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Ararat city,U,U,0,0,0,12,0,0,12,0,0,0,5,0,0,5,17
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Ararat marz,R,U,0,0,0,186,47,0,233,0,0,0,191,36,0,227,460
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Armavir city,U,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Armavir marz,R,U,0,0,0,28,20,0,48,0,0,0,20,8,0,28,76
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Artashat,U,U,0,0,0,20,8,0,28,0,0,0,14,5,0,19,47
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Ashtarak,U,U,0,0,0,11,0,0,11,0,0,0,13,0,0,13,24
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Berd,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Byureghavan,U,U,0,0,0,21,13,0,34,0,0,0,24,6,0,30,64
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Charentsavan,U,U,0,0,0,9,0,0,9,0,0,0,0,0,0,0,9
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Dilijan,U,U,0,0,0,5,6,0,11,0,0,0,5,0,0,5,16
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Gavar,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Gegharkunik marz,R,U,0,0,0,42,11,0,53,0,0,0,76,11,0,87,140
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Goris,U,U,0,0,0,13,5,0,18,0,0,0,15,5,0,20,38
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Gyumri,U,U,0,0,0,10,5,0,15,0,0,0,21,0,0,21,36
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Hrazdan,U,U,0,0,0,11,0,0,11,0,0,0,9,5,0,14,25
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Ijevan,U,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Kajaran,U,U,0,0,0,6,5,0,11,0,0,0,5,0,0,5,16
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Kapan,U,U,0,0,0,25,9,0,34,0,0,0,27,5,0,32,66
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Kotayk marz,R,U,0,0,0,101,64,0,165,0,0,0,127,31,0,158,323
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Lori marz,R,U,0,0,0,34,12,0,46,0,0,0,45,7,0,52,98
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Masis,U,U,0,0,0,13,0,0,13,0,0,0,10,0,0,10,23
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Meghri,U,U,0,0,0,8,0,0,8,0,0,0,0,0,0,0,8
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Metsamor,U,U,0,0,0,10,10,0,20,0,0,0,11,5,0,16,36
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Nor Hach,U,U,0,0,0,21,13,0,34,0,0,0,15,6,0,21,55
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Noyemberyan,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Sevan,U,U,0,0,0,6,0,0,6,0,0,0,5,0,0,5,11
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Shirak marz,R,U,0,0,0,9,0,0,9,0,0,0,5,5,0,10,19
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Spitak,U,U,0,0,0,9,0,0,9,0,0,0,0,5,0,5,14
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Stepanavan,U,U,0,0,0,9,0,0,9,0,0,0,13,0,0,13,22
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Syunik marz,R,U,0,0,0,30,11,0,41,0,0,0,39,0,0,39,80
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Talin,U,U,0,0,0,13,5,0,18,0,0,0,8,5,0,13,31
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Tashir,U,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Tavush marz,R,U,0,0,0,52,23,0,75,0,0,0,42,15,0,57,132
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Vagharshapat,U,U,0,0,0,27,11,0,38,0,0,0,30,5,0,35,73
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Vanadzor,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Vardenis,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Vayots Dzor marz,R,U,0,0,0,8,0,0,8,0,0,0,0,0,0,0,8
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Vedi,U,U,0,0,0,19,7,0,26,0,0,0,8,5,0,13,39
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Yeghvard,U,U,0,0,0,15,0,0,15,0,0,0,14,0,0,14,29
+2008,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan,U,U,0,0,0,268,168,0,436,0,0,0,313,71,0,384,820
+2008,GEO,ARM,Georgia,Armenia,ASY,Yerevan,U,U,5,0,7,48,6,0,66,8,6,7,36,0,0,57,123
+2008,IRN,ARM,Iran (Islamic Republic of),Armenia,ASY,Yerevan,U,U,0,8,0,0,0,0,8,0,0,0,0,0,0,0,8
+2008,IRN,ARM,Iran (Islamic Republic of),Armenia,REF,Yerevan,U,U,0,0,0,0,0,0,0,0,0,0,9,0,0,9,9
+2008,IRQ,ARM,Iraq,Armenia,ASY,Yerevan,U,U,0,0,5,10,0,0,15,0,5,0,14,0,0,19,34
+2008,IRQ,ARM,Iraq,Armenia,REF,Yerevan,U,U,19,30,51,261,61,0,422,22,32,47,273,41,0,415,837
+2008,ISR,ARM,Israel,Armenia,REF,Yerevan,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2008,LBN,ARM,Lebanon,Armenia,REF,Yerevan,U,U,0,0,0,6,0,0,6,0,0,0,8,0,0,8,14
+2008,TUR,ARM,Türkiye,Armenia,ASY,Yerevan,U,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2008,TUR,ARM,Türkiye,Armenia,REF,Yerevan,U,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2009,ARM,ARM,Armenia,Armenia,OOC,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,82231
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Abovjan (Kotashkent),U,U,0,0,0,23,19,0,42,0,0,0,30,7,0,37,79
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Achtarak,U,U,0,0,0,8,0,0,8,0,0,0,8,0,0,8,16
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Agarak,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Aparan,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Aragatsotn,R,U,0,0,0,22,16,0,38,0,0,0,20,6,0,26,64
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Ararat,R,U,0,0,0,86,47,0,133,0,0,0,154,36,0,190,323
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Ararat,U,U,0,0,0,6,0,0,6,0,0,0,5,0,0,5,11
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Armavir,R,U,0,0,0,21,20,0,41,0,0,0,18,8,0,26,67
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Armavir city,U,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Artashat,U,U,0,0,0,16,8,0,24,0,0,0,10,5,0,15,39
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Byureghavan,U,U,0,0,0,18,10,0,28,0,0,0,19,6,0,25,53
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Chambarak,U,U,0,0,0,0,5,0,5,0,0,0,0,0,0,0,5
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Charentsavan,U,U,0,0,0,7,0,0,7,0,0,0,0,0,0,0,7
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Dilijan,U,U,0,0,0,5,6,0,11,0,0,0,5,0,0,5,16
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Gavar,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Gergharkunik,R,U,0,0,0,38,11,0,49,0,0,0,66,11,0,77,126
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Goris,U,U,0,0,0,10,5,0,15,0,0,0,12,5,0,17,32
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Gujumri,U,U,0,0,0,9,5,0,14,0,0,0,21,0,0,21,35
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Hrazdan,U,U,0,0,0,7,0,0,7,0,0,0,5,5,0,10,17
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Indjevan,U,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Kajaran,U,U,0,0,0,6,5,0,11,0,0,0,5,0,0,5,16
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Kalinino (Tachir),U,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Kapan,U,U,0,0,0,22,9,0,31,0,0,0,24,5,0,29,60
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Kotayk,R,U,0,0,0,100,64,0,164,0,0,0,124,30,0,154,318
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Lori,R,U,0,0,0,34,12,0,46,0,0,0,44,7,0,51,97
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Martouni,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Masis,U,U,0,0,0,10,0,0,10,0,0,0,8,0,0,8,18
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Meghri,U,U,0,0,0,8,0,0,8,0,0,0,0,0,0,0,8
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Metsamor,U,U,0,0,0,8,9,0,17,0,0,0,11,5,0,16,33
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Noemberjan,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Nor Hach,U,U,0,0,0,21,13,0,34,0,0,0,15,6,0,21,55
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Sevan,U,U,0,0,0,6,0,0,6,0,0,0,5,0,0,5,11
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Shamshadinskiy (Berd),U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Shirak,R,U,0,0,0,9,0,0,9,0,0,0,5,5,0,10,19
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Spitak,U,U,0,0,0,10,0,0,10,0,0,0,0,5,0,5,15
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Stepanovan,U,U,0,0,0,8,0,0,8,0,0,0,11,0,0,11,19
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Syunik,R,U,0,0,0,30,11,0,41,0,0,0,39,0,0,39,80
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Talin,U,U,0,0,0,13,5,0,18,0,0,0,8,5,0,13,31
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Tavush,R,U,0,0,0,30,22,0,52,0,0,0,33,14,0,47,99
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Vagharshapat,U,U,0,0,0,27,11,0,38,0,0,0,30,5,0,35,73
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Vanadzor,U,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Vardanis,U,U,0,0,0,7,0,0,7,0,0,0,0,0,0,0,7
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Vayots Dzor,R,U,0,0,0,0,0,0,0,0,0,0,7,0,0,7,7
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Vedi,U,U,0,0,0,15,7,0,22,0,0,0,8,5,0,13,35
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Yeghvard,U,U,0,0,0,15,0,0,15,0,0,0,14,0,0,14,29
+2009,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan,U,U,0,0,0,236,138,0,374,0,0,0,269,68,0,337,711
+2009,GEO,ARM,Georgia,Armenia,ASY,Yerevan,U,U,0,0,0,6,0,0,6,0,0,5,0,0,0,5,11
+2009,GEO,ARM,Georgia,Armenia,REF,Yerevan,U,U,0,0,0,8,0,0,8,0,0,0,0,0,0,0,8
+2009,IRN,ARM,Iran (Islamic Republic of),Armenia,ASY,Yerevan,U,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2009,IRN,ARM,Iran (Islamic Republic of),Armenia,REF,Yerevan,U,U,0,0,0,6,0,0,6,0,0,5,11,0,0,16,22
+2009,IRQ,ARM,Iraq,Armenia,ASY,Yerevan,U,U,0,0,5,6,0,0,11,0,0,0,11,0,0,11,22
+2009,IRQ,ARM,Iraq,Armenia,REF,Yerevan,U,U,19,35,56,265,62,0,437,23,36,50,281,43,0,433,870
+2009,ISR,ARM,Israel,Armenia,REF,Yerevan,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2009,LBN,ARM,Lebanon,Armenia,REF,Yerevan,U,U,0,0,0,6,0,0,6,0,0,0,8,0,0,8,14
+2009,TUR,ARM,Türkiye,Armenia,REF,Yerevan,U,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2010,ARM,ARM,Armenia,Armenia,OOC,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,79019
+2010,ARM,ARM,Armenia,Armenia,OOC,Kotayk marz,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1000
+2010,ARM,ARM,Armenia,Armenia,OOC,Yerevan,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2500
+2010,AZE,ARM,Azerbaijan,Armenia,REF,Aragatsotn marz,V,U,0,0,0,42,23,0,65,0,0,0,34,10,0,44,109
+2010,AZE,ARM,Azerbaijan,Armenia,REF,Ararat marz,V,U,0,0,0,99,56,0,155,0,0,0,136,46,0,182,337
+2010,AZE,ARM,Azerbaijan,Armenia,REF,Armavir marz,V,U,0,0,0,57,39,0,96,0,0,0,55,17,0,72,168
+2010,AZE,ARM,Azerbaijan,Armenia,REF,Gegharkunik marz,V,U,0,0,0,43,18,0,61,0,0,0,59,14,0,73,134
+2010,AZE,ARM,Azerbaijan,Armenia,REF,Kotayk marz,V,U,0,0,0,164,101,0,265,0,0,0,178,51,0,229,494
+2010,AZE,ARM,Azerbaijan,Armenia,REF,Lori marz,V,U,0,0,0,47,15,0,62,0,0,0,51,11,0,62,124
+2010,AZE,ARM,Azerbaijan,Armenia,REF,Shirak marz,V,U,0,0,0,19,5,0,24,0,0,0,22,5,0,27,51
+2010,AZE,ARM,Azerbaijan,Armenia,REF,Syunik marz,V,U,0,0,0,73,28,0,101,0,0,0,69,11,0,80,181
+2010,AZE,ARM,Azerbaijan,Armenia,REF,Tavush marz,V,U,0,0,0,26,26,0,52,0,0,0,28,14,0,42,94
+2010,AZE,ARM,Azerbaijan,Armenia,REF,Vayots Dzor marz,V,U,0,0,0,8,0,0,8,0,0,0,0,0,0,0,8
+2010,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan,U,U,0,0,0,217,128,0,345,0,0,0,242,60,0,302,647
+2010,GEO,ARM,Georgia,Armenia,REF,Yerevan,U,U,0,0,0,6,0,0,6,0,0,0,5,0,0,5,11
+2010,IRN,ARM,Iran (Islamic Republic of),Armenia,ASY,Yerevan,U,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2010,IRN,ARM,Iran (Islamic Republic of),Armenia,REF,Yerevan,U,U,0,0,0,6,0,0,6,0,0,5,11,0,0,16,22
+2010,IRQ,ARM,Iraq,Armenia,REF,Yerevan,U,U,19,36,57,268,65,0,445,23,37,51,288,44,0,443,888
+2010,ISR,ARM,Israel,Armenia,REF,Yerevan,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2010,LBN,ARM,Lebanon,Armenia,REF,Yerevan,U,U,0,0,0,6,0,0,6,0,0,0,8,0,0,8,14
+2010,STA,ARM,Stateless,Armenia,STA,Yerevan,U,U,0,0,0,0,0,0,0,0,0,0,6,0,0,6,6
+2010,TUR,ARM,Türkiye,Armenia,ASY,Yerevan,U,U,0,0,0,0,0,0,0,0,0,0,9,0,0,9,9
+2010,TUR,ARM,Türkiye,Armenia,REF,Yerevan,U,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2011,ARM,ARM,Armenia,Armenia,OOC,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,82938
+2011,AZE,ARM,Azerbaijan,Armenia,REF,Aragatsotn : Marz - Province,V,U,0,0,0,40,20,0,60,0,0,0,33,10,0,43,103
+2011,AZE,ARM,Azerbaijan,Armenia,REF,Ararat : Marz - Province,V,U,0,0,0,55,39,0,94,0,0,0,88,40,0,128,222
+2011,AZE,ARM,Azerbaijan,Armenia,REF,Armavir : Marz - Province,V,U,0,0,0,53,38,0,91,0,0,0,53,17,0,70,161
+2011,AZE,ARM,Azerbaijan,Armenia,REF,Gergharkunik : Marz - Province,V,U,0,0,0,38,17,0,55,0,0,0,47,14,0,61,116
+2011,AZE,ARM,Azerbaijan,Armenia,REF,Kotayk : Marz - Province,V,U,0,0,0,112,72,0,184,0,0,0,132,41,0,173,357
+2011,AZE,ARM,Azerbaijan,Armenia,REF,Lori : Marz - Province,V,U,0,0,0,45,14,0,59,0,0,0,48,10,0,58,117
+2011,AZE,ARM,Azerbaijan,Armenia,REF,Shirak : Marz - Province,V,U,0,0,0,18,5,0,23,0,0,0,18,5,0,23,46
+2011,AZE,ARM,Azerbaijan,Armenia,REF,Syunik : Marz - Province,V,U,0,0,0,63,19,0,82,0,0,0,63,7,0,70,152
+2011,AZE,ARM,Azerbaijan,Armenia,REF,Tavush : Marz - Province,V,U,0,0,0,18,26,0,44,0,0,0,15,12,0,27,71
+2011,AZE,ARM,Azerbaijan,Armenia,REF,Vayots Dzor : Marz - Province,V,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2011,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan : Point,U,U,0,0,0,197,113,0,310,0,0,0,210,58,0,268,578
+2011,PSE,ARM,State of Palestine,Armenia,REF,Yerevan : Point,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2011,GEO,ARM,Georgia,Armenia,REF,Yerevan : Point,U,U,0,0,0,6,0,0,6,0,0,0,5,0,0,5,11
+2011,CIV,ARM,Côte d'Ivoire,Armenia,REF,Yerevan : Point,U,U,0,0,0,0,0,0,0,0,0,0,8,0,0,8,8
+2011,IRN,ARM,Iran (Islamic Republic of),Armenia,ASY,Yerevan : Point,U,U,0,0,0,0,0,0,0,0,5,0,7,0,0,12,12
+2011,IRN,ARM,Iran (Islamic Republic of),Armenia,REF,Yerevan : Point,U,U,0,0,0,5,0,0,5,0,0,5,8,0,0,13,18
+2011,IRQ,ARM,Iraq,Armenia,REF,Yerevan : Point,U,U,19,38,57,277,69,0,460,26,40,51,297,49,0,463,923
+2011,LBN,ARM,Lebanon,Armenia,REF,Yerevan : Point,U,U,0,0,0,6,0,0,6,0,0,0,8,0,0,8,14
+2011,STA,ARM,Stateless,Armenia,STA,Yerevan : Point,U,U,0,0,0,5,0,0,5,0,0,0,6,0,0,6,11
+2011,SYR,ARM,Syrian Arab Republic,Armenia,REF,Yerevan : Point,U,U,0,0,0,6,0,0,6,0,0,0,0,0,0,0,6
+2011,TUR,ARM,Türkiye,Armenia,ASY,Yerevan : Point,U,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2012,AZE,ARM,Azerbaijan,Armenia,REF,Aragatsotn : Marz - Province,V,U,0,0,0,40,19,0,59,0,0,0,32,10,0,42,101
+2012,AZE,ARM,Azerbaijan,Armenia,REF,Ararat : Marz - Province,V,U,0,0,0,38,34,0,72,0,0,0,66,40,0,106,178
+2012,AZE,ARM,Azerbaijan,Armenia,REF,Armavir : Marz - Province,V,U,0,0,0,52,38,0,90,0,0,0,51,17,0,68,158
+2012,AZE,ARM,Azerbaijan,Armenia,REF,Gergharkunik : Marz - Province,V,U,0,0,0,35,15,0,50,0,0,0,41,13,0,54,104
+2012,AZE,ARM,Azerbaijan,Armenia,REF,Kotayk : Marz - Province,V,U,0,0,0,98,60,0,158,0,0,0,102,36,0,138,296
+2012,AZE,ARM,Azerbaijan,Armenia,REF,Lori : Marz - Province,V,U,0,0,0,44,14,0,58,0,0,0,43,10,0,53,111
+2012,AZE,ARM,Azerbaijan,Armenia,REF,Shirak : Marz - Province,V,U,0,0,0,13,5,0,18,0,0,0,14,5,0,19,37
+2012,AZE,ARM,Azerbaijan,Armenia,REF,Syunik : Marz - Province,V,U,0,0,0,58,18,0,76,0,0,0,59,6,0,65,141
+2012,AZE,ARM,Azerbaijan,Armenia,REF,Tavush : Marz - Province,V,U,0,0,0,8,22,0,30,0,0,0,0,8,0,8,38
+2012,AZE,ARM,Azerbaijan,Armenia,REF,Vayots Dzor : Marz - Province,V,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2012,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan : City,U,U,0,0,0,188,110,0,298,0,0,0,196,53,0,249,547
+2012,COG,ARM,Congo,Armenia,ASY,Yerevan : City,U,C,5,0,0,0,0,0,5,0,0,0,0,0,0,0,5
+2012,PSE,ARM,State of Palestine,Armenia,REF,Yerevan : City,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2012,GEO,ARM,Georgia,Armenia,REF,Yerevan : City,U,I,0,0,0,8,0,0,8,0,0,0,0,0,0,0,8
+2012,CIV,ARM,Côte d'Ivoire,Armenia,REF,Yerevan : City,U,C,0,0,0,0,0,0,0,0,0,0,6,0,0,6,6
+2012,IRN,ARM,Iran (Islamic Republic of),Armenia,ASY,Yerevan : City,U,U,0,0,0,6,0,0,6,0,0,0,6,0,0,6,12
+2012,IRN,ARM,Iran (Islamic Republic of),Armenia,REF,Yerevan : City,U,C,0,0,0,5,0,0,5,0,0,6,10,0,0,16,21
+2012,IRQ,ARM,Iraq,Armenia,ASY,Yerevan : City,U,I,0,5,0,5,0,0,10,0,0,0,6,0,0,6,16
+2012,IRQ,ARM,Iraq,Armenia,REF,Yerevan : City,U,U,19,38,58,285,71,0,471,28,40,51,302,51,0,472,943
+2012,LBN,ARM,Lebanon,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2012,LBN,ARM,Lebanon,Armenia,REF,Yerevan : City,U,U,0,0,0,6,0,0,6,0,0,0,8,0,0,8,14
+2012,STA,ARM,Stateless,Armenia,STA,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,8,0,0,8,8
+2012,STA,ARM,Stateless,Armenia,STA,Yerevan : City,U,U,0,0,0,0,0,13,13,0,0,0,0,0,14,14,27
+2012,SYR,ARM,Syrian Arab Republic,Armenia,ASY,Yerevan : City,U,U,16,21,23,88,15,0,163,15,22,21,105,14,0,177,340
+2012,SYR,ARM,Syrian Arab Republic,Armenia,OOC,Yerevan : City,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5500
+2012,SYR,ARM,Syrian Arab Republic,Armenia,REF,Yerevan : City,U,I,8,9,5,26,5,0,53,10,11,9,47,6,0,83,136
+2013,AZE,ARM,Azerbaijan,Armenia,REF,Aragatsotn : Marz - Province,V,U,0,0,0,40,18,0,58,0,0,0,32,10,0,42,100
+2013,AZE,ARM,Azerbaijan,Armenia,REF,Ararat : Marz - Province,V,U,0,0,0,34,33,0,67,0,0,0,44,39,0,83,150
+2013,AZE,ARM,Azerbaijan,Armenia,REF,Armavir : Marz - Province,V,U,0,0,0,50,38,0,88,0,0,0,47,17,0,64,152
+2013,AZE,ARM,Azerbaijan,Armenia,REF,Gergharkunik : Marz - Province,V,U,0,0,0,35,13,0,48,0,0,0,39,13,0,52,100
+2013,AZE,ARM,Azerbaijan,Armenia,REF,Kotayk : Marz - Province,V,U,0,0,0,86,56,0,142,0,0,0,90,35,0,125,267
+2013,AZE,ARM,Azerbaijan,Armenia,REF,Lori : Marz - Province,V,U,0,0,0,44,14,0,58,0,0,0,42,10,0,52,110
+2013,AZE,ARM,Azerbaijan,Armenia,REF,Shirak : Marz - Province,V,U,0,0,0,13,5,0,18,0,0,0,12,5,0,17,35
+2013,AZE,ARM,Azerbaijan,Armenia,REF,Syunik : Marz - Province,V,U,0,0,0,57,18,0,75,0,0,0,54,6,0,60,135
+2013,AZE,ARM,Azerbaijan,Armenia,REF,Tavush : Marz - Province,V,U,0,0,0,8,22,0,30,0,0,0,0,8,0,8,38
+2013,AZE,ARM,Azerbaijan,Armenia,REF,Vayots Dzor : Marz - Province,V,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2013,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan : City,U,U,0,0,0,177,105,0,282,0,0,0,182,51,0,233,515
+2013,PSE,ARM,State of Palestine,Armenia,REF,Yerevan : City,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2013,GEO,ARM,Georgia,Armenia,REF,Yerevan : City,U,I,0,0,0,8,0,0,8,0,0,0,0,0,0,0,8
+2013,GIN,ARM,Guinea,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2013,CIV,ARM,Côte d'Ivoire,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2013,CIV,ARM,Côte d'Ivoire,Armenia,REF,Yerevan : City,U,C,0,0,0,0,0,0,0,0,0,0,6,0,0,6,6
+2013,IRN,ARM,Iran (Islamic Republic of),Armenia,ASY,Yerevan : City,U,U,0,0,0,5,0,0,5,0,0,0,8,0,0,8,13
+2013,IRN,ARM,Iran (Islamic Republic of),Armenia,REF,Yerevan : City,U,C,0,0,0,8,0,0,8,0,0,8,11,0,0,19,27
+2013,IRQ,ARM,Iraq,Armenia,ASY,Yerevan : City,U,I,0,5,0,0,0,0,5,0,0,0,0,0,0,0,5
+2013,IRQ,ARM,Iraq,Armenia,REF,Yerevan : City,U,U,20,41,60,292,73,0,486,28,41,52,306,54,0,481,967
+2013,LBN,ARM,Lebanon,Armenia,REF,Yerevan : City,U,U,0,0,0,7,0,0,7,0,0,0,10,0,0,10,17
+2013,STA,ARM,Stateless,Armenia,STA,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,127
+2013,STA,ARM,Stateless,Armenia,STA,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,7,0,0,7,7
+2013,STA,ARM,Stateless,Armenia,STA,Yerevan : City,U,U,0,0,0,0,0,12,12,0,0,0,0,0,13,13,25
+2013,STA,ARM,Stateless,Armenia,STA,Yerevan : City,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21
+2013,SYR,ARM,Syrian Arab Republic,Armenia,ASY,Yerevan : City,U,I,0,0,0,9,5,0,14,7,0,0,21,0,0,28,42
+2013,SYR,ARM,Syrian Arab Republic,Armenia,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10600
+2013,SYR,ARM,Syrian Arab Republic,Armenia,REF,Yerevan : City,U,I,0,0,5,6,0,0,11,0,0,5,6,0,0,11,22
+2013,SYR,ARM,Syrian Arab Republic,Armenia,REF,Yerevan : City,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,468
+2014,ARM,ARM,Armenia,Armenia,RET,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,5,0,0,0,5,5
+2014,AZE,ARM,Azerbaijan,Armenia,REF,Aragatsotn : Marz - Province,V,U,0,0,0,39,18,0,57,0,0,0,32,10,0,42,99
+2014,AZE,ARM,Azerbaijan,Armenia,REF,Ararat : Marz - Province,V,U,0,0,0,34,33,0,67,0,0,0,44,39,0,83,150
+2014,AZE,ARM,Azerbaijan,Armenia,REF,Armavir : Marz - Province,V,U,0,0,0,50,38,0,88,0,0,0,47,17,0,64,152
+2014,AZE,ARM,Azerbaijan,Armenia,REF,Gergharkunik : Marz - Province,V,U,0,0,0,35,12,0,47,0,0,0,38,13,0,51,98
+2014,AZE,ARM,Azerbaijan,Armenia,REF,Kotayk : Marz - Province,V,U,0,0,0,85,55,0,140,0,0,0,90,35,0,125,265
+2014,AZE,ARM,Azerbaijan,Armenia,REF,Lori : Marz - Province,V,U,0,0,0,44,14,0,58,0,0,0,39,10,0,49,107
+2014,AZE,ARM,Azerbaijan,Armenia,REF,Shirak : Marz - Province,V,U,0,0,0,13,5,0,18,0,0,0,11,5,0,16,34
+2014,AZE,ARM,Azerbaijan,Armenia,REF,Syunik : Marz - Province,V,U,0,0,0,56,18,0,74,0,0,0,50,6,0,56,130
+2014,AZE,ARM,Azerbaijan,Armenia,REF,Tavush : Marz - Province,V,U,0,0,0,5,21,0,26,0,0,0,0,0,0,0,26
+2014,AZE,ARM,Azerbaijan,Armenia,REF,Vayots Dzor : Marz - Province,V,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2014,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan : City,U,I,0,0,0,164,102,0,266,0,0,0,171,51,0,222,488
+2014,PSE,ARM,State of Palestine,Armenia,REF,Yerevan : City,U,I,0,0,0,6,0,0,6,0,0,0,0,0,0,0,6
+2014,GEO,ARM,Georgia,Armenia,REF,Yerevan : City,U,I,0,0,0,8,0,0,8,0,0,0,0,0,0,0,8
+2014,CIV,ARM,Côte d'Ivoire,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,6,0,0,6,6
+2014,IRN,ARM,Iran (Islamic Republic of),Armenia,ASY,Yerevan : City,U,I,0,0,0,8,0,0,8,0,0,0,13,0,0,13,21
+2014,IRN,ARM,Iran (Islamic Republic of),Armenia,REF,Yerevan : City,U,I,0,0,0,8,0,0,8,0,0,8,11,0,0,19,27
+2014,IRQ,ARM,Iraq,Armenia,REF,Yerevan : City,U,I,22,42,61,294,71,0,490,30,41,53,311,54,0,489,979
+2014,LBN,ARM,Lebanon,Armenia,REF,Yerevan : City,U,I,0,0,0,7,0,0,7,0,0,0,11,0,0,11,18
+2014,STA,ARM,Stateless,Armenia,STA,Ararat : Marz - Province,V,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2014,STA,ARM,Stateless,Armenia,STA,Gergharkunik : Marz - Province,V,U,0,0,0,0,0,0,0,0,0,0,6,0,0,6,6
+2014,STA,ARM,Stateless,Armenia,STA,Kotayk : Marz - Province,V,U,0,0,0,5,0,0,5,0,0,0,5,0,0,5,10
+2014,STA,ARM,Stateless,Armenia,STA,Lori : Marz - Province,V,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2014,STA,ARM,Stateless,Armenia,STA,Shirak : Marz - Province,V,U,0,0,0,7,0,0,7,0,0,0,0,0,0,0,7
+2014,STA,ARM,Stateless,Armenia,STA,Syunik : Marz - Province,V,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2014,STA,ARM,Stateless,Armenia,STA,Yerevan : City,U,I,0,0,0,19,0,0,19,0,0,0,20,5,0,25,44
+2014,STA,ARM,Stateless,Armenia,STA,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,124
+2014,SYR,ARM,Syrian Arab Republic,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,9,0,0,9,9
+2014,SYR,ARM,Syrian Arab Republic,Armenia,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14450
+2014,SYR,ARM,Syrian Arab Republic,Armenia,REF,Yerevan : City,U,I,0,0,5,5,0,0,10,0,0,5,5,0,0,10,20
+2014,SYR,ARM,Syrian Arab Republic,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,524
+2014,UKR,ARM,Ukraine,Armenia,ASY,Yerevan : City,U,I,0,5,0,9,0,0,14,0,6,0,7,0,0,13,27
+2014,UKR,ARM,Ukraine,Armenia,REF,Yerevan : City,U,I,5,5,0,17,0,0,27,0,6,0,10,0,0,16,43
+2015,AZE,ARM,Azerbaijan,Armenia,REF,Aragatsotn : Marz - Province,V,U,0,0,0,39,18,0,57,0,0,0,32,10,0,42,99
+2015,AZE,ARM,Azerbaijan,Armenia,REF,Ararat : Marz - Province,V,U,0,0,0,33,33,0,66,0,0,0,42,37,0,79,145
+2015,AZE,ARM,Azerbaijan,Armenia,REF,Armavir : Marz - Province,V,U,0,0,0,48,37,0,85,0,0,0,47,17,0,64,149
+2015,AZE,ARM,Azerbaijan,Armenia,REF,Gergharkunik : Marz - Province,V,U,0,0,0,35,12,0,47,0,0,0,37,12,0,49,96
+2015,AZE,ARM,Azerbaijan,Armenia,REF,Kotayk : Marz - Province,V,U,0,0,0,85,55,0,140,0,0,0,88,35,0,123,263
+2015,AZE,ARM,Azerbaijan,Armenia,REF,Lori : Marz - Province,V,U,0,0,0,43,14,0,57,0,0,0,38,10,0,48,105
+2015,AZE,ARM,Azerbaijan,Armenia,REF,Shirak : Marz - Province,V,U,0,0,0,13,5,0,18,0,0,0,10,5,0,15,33
+2015,AZE,ARM,Azerbaijan,Armenia,REF,Syunik : Marz - Province,V,U,0,0,0,55,18,0,73,0,0,0,48,6,0,54,127
+2015,AZE,ARM,Azerbaijan,Armenia,REF,Tavush : Marz - Province,V,U,0,0,0,5,21,0,26,0,0,0,0,0,0,0,26
+2015,AZE,ARM,Azerbaijan,Armenia,REF,Vayots Dzor : Marz - Province,V,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2015,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan : City,U,I,0,0,0,154,97,0,251,0,0,0,156,46,0,202,453
+2015,PSE,ARM,State of Palestine,Armenia,REF,Yerevan : City,U,I,0,0,0,6,0,0,6,0,0,0,0,0,0,0,6
+2015,GEO,ARM,Georgia,Armenia,REF,Yerevan : City,U,I,0,0,0,8,0,0,8,0,0,0,0,0,0,0,8
+2015,GIN,ARM,Guinea,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,6,0,0,0,0,6,6
+2015,CIV,ARM,Côte d'Ivoire,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,6,0,0,6,6
+2015,IRN,ARM,Iran (Islamic Republic of),Armenia,ASY,Yerevan : City,U,I,0,0,0,7,0,0,7,0,0,0,15,0,0,15,22
+2015,IRN,ARM,Iran (Islamic Republic of),Armenia,REF,Yerevan : City,U,I,0,0,0,10,0,0,10,0,0,8,12,0,0,20,30
+2015,IRQ,ARM,Iraq,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,5,0,7,0,0,12,12
+2015,IRQ,ARM,Iraq,Armenia,REF,Yerevan : City,U,I,27,43,61,308,71,0,510,33,42,58,319,57,0,509,1019
+2015,LBN,ARM,Lebanon,Armenia,REF,Yerevan : City,U,I,0,0,0,8,0,0,8,0,0,0,11,0,0,11,19
+2015,STA,ARM,Stateless,Armenia,STA,Yerevan : City,U,I,0,0,0,0,0,85,85,0,0,0,0,0,101,101,186
+2015,STA,ARM,Stateless,Armenia,STA,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,125
+2015,SYR,ARM,Syrian Arab Republic,Armenia,ASY,Yerevan : City,U,I,0,0,0,5,0,0,5,0,0,0,6,0,0,6,11
+2015,SYR,ARM,Syrian Arab Republic,Armenia,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16000
+2015,SYR,ARM,Syrian Arab Republic,Armenia,REF,Yerevan : City,U,I,0,0,5,6,0,0,11,0,0,5,6,0,0,11,22
+2015,SYR,ARM,Syrian Arab Republic,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,295,295,0,0,0,0,0,294,294,589
+2015,UKR,ARM,Ukraine,Armenia,REF,Yerevan : City,U,I,10,10,0,40,0,0,60,5,10,9,25,0,0,49,109
+2015,YEM,ARM,Yemen,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,5,0,0,0,0,0,5,5
+2016,AZE,ARM,Azerbaijan,Armenia,REF,Aragatsotn : Marz - Province,V,U,0,0,0,28,13,0,41,0,0,0,23,7,0,30,71
+2016,AZE,ARM,Azerbaijan,Armenia,REF,Ararat : Marz - Province,V,U,0,0,0,23,24,0,47,0,0,0,26,26,0,52,99
+2016,AZE,ARM,Azerbaijan,Armenia,REF,Armavir : Marz - Province,V,U,0,0,0,34,27,0,61,0,0,0,34,12,0,46,107
+2016,AZE,ARM,Azerbaijan,Armenia,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,573
+2016,AZE,ARM,Azerbaijan,Armenia,REF,Gergharkunik : Marz - Province,V,U,0,0,0,25,9,0,34,0,0,0,25,9,0,34,68
+2016,AZE,ARM,Azerbaijan,Armenia,REF,Kotayk : Marz - Province,V,U,0,0,0,61,40,0,101,0,0,0,63,25,0,88,189
+2016,AZE,ARM,Azerbaijan,Armenia,REF,Lori : Marz - Province,V,U,0,0,0,32,10,0,42,0,0,0,27,7,0,34,76
+2016,AZE,ARM,Azerbaijan,Armenia,REF,Shirak : Marz - Province,V,U,0,0,0,13,0,0,13,0,0,0,9,0,0,9,22
+2016,AZE,ARM,Azerbaijan,Armenia,REF,Syunik : Marz - Province,V,U,0,0,0,39,13,0,52,0,0,0,33,5,0,38,90
+2016,AZE,ARM,Azerbaijan,Armenia,REF,Tavush : Marz - Province,V,U,0,0,0,0,15,0,15,0,0,0,0,0,0,0,15
+2016,AZE,ARM,Azerbaijan,Armenia,REF,Vayots Dzor : Marz - Province,V,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2016,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan : City,U,I,0,0,0,109,70,0,179,0,0,0,108,33,0,141,320
+2016,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,411
+2016,CUB,ARM,Cuba,Armenia,ASY,Yerevan : City,U,I,0,0,0,6,0,0,6,0,0,0,0,0,0,0,6
+2016,PSE,ARM,State of Palestine,Armenia,REF,Yerevan : City,U,I,0,0,0,6,0,0,6,0,0,0,0,0,0,0,6
+2016,GEO,ARM,Georgia,Armenia,REF,Yerevan : City,U,I,0,0,0,8,0,0,8,0,0,0,0,0,0,0,8
+2016,CIV,ARM,Côte d'Ivoire,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,6,0,6,6
+2016,IRN,ARM,Iran (Islamic Republic of),Armenia,ASY,Vayots Dzor : Marz - Province,V,U,0,0,0,7,0,0,7,0,0,0,12,0,0,12,19
+2016,IRN,ARM,Iran (Islamic Republic of),Armenia,REF,Yerevan : City,U,I,5,0,0,7,0,0,12,0,0,8,12,0,0,20,32
+2016,IRQ,ARM,Iraq,Armenia,ASY,Yerevan : City,U,I,0,9,0,0,0,0,9,0,5,0,9,0,0,14,23
+2016,IRQ,ARM,Iraq,Armenia,REF,Yerevan : City,U,I,27,43,61,307,72,0,510,33,42,58,317,57,0,507,1017
+2016,LBN,ARM,Lebanon,Armenia,REF,Yerevan : City,U,I,0,0,0,8,0,0,8,0,0,0,11,0,0,11,19
+2016,STA,ARM,Stateless,Armenia,STA,Yerevan : City,U,I,0,0,0,0,0,185,185,0,0,0,0,0,203,203,388
+2016,STA,ARM,Stateless,Armenia,STA,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,124
+2016,SYR,ARM,Syrian Arab Republic,Armenia,ASY,Yerevan : City,U,I,0,0,0,8,5,0,13,0,0,0,7,0,0,7,20
+2016,SYR,ARM,Syrian Arab Republic,Armenia,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14000
+2016,SYR,ARM,Syrian Arab Republic,Armenia,REF,Yerevan : City,U,I,0,5,0,8,0,0,13,0,0,5,9,0,0,14,27
+2016,SYR,ARM,Syrian Arab Republic,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,599
+2016,TUR,ARM,Türkiye,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2016,UKR,ARM,Ukraine,Armenia,ASY,Yerevan : City,U,I,5,0,0,0,0,0,5,0,0,0,0,0,0,0,5
+2016,UKR,ARM,Ukraine,Armenia,REF,Yerevan : City,U,I,10,12,0,42,0,0,64,5,10,9,25,0,0,49,113
+2016,YEM,ARM,Yemen,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,5,0,0,0,0,0,5,5
+2017,AFG,ARM,Afghanistan,Armenia,ASY,Armavir : Marz - Province,V,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2017,AZE,ARM,Azerbaijan,Armenia,REF,Aragatsotn : Marz - Province,V,U,0,0,0,28,13,0,41,0,0,0,23,7,0,30,71
+2017,AZE,ARM,Azerbaijan,Armenia,REF,Ararat : Marz - Province,V,U,0,0,0,23,24,0,47,0,0,0,25,26,0,51,98
+2017,AZE,ARM,Azerbaijan,Armenia,REF,Armavir : Marz - Province,V,U,0,0,0,35,26,0,61,0,0,0,33,12,0,45,106
+2017,AZE,ARM,Azerbaijan,Armenia,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,573
+2017,AZE,ARM,Azerbaijan,Armenia,REF,Gergharkunik : Marz - Province,V,U,0,0,0,25,9,0,34,0,0,0,25,9,0,34,68
+2017,AZE,ARM,Azerbaijan,Armenia,REF,Kotayk : Marz - Province,V,U,0,0,0,61,40,0,101,0,0,0,63,25,0,88,189
+2017,AZE,ARM,Azerbaijan,Armenia,REF,Lori : Marz - Province,V,U,0,0,0,31,10,0,41,0,0,0,27,7,0,34,75
+2017,AZE,ARM,Azerbaijan,Armenia,REF,Shirak : Marz - Province,V,U,0,0,0,13,0,0,13,0,0,0,9,0,0,9,22
+2017,AZE,ARM,Azerbaijan,Armenia,REF,Syunik : Marz - Province,V,U,0,0,0,39,12,0,51,0,0,0,33,5,0,38,89
+2017,AZE,ARM,Azerbaijan,Armenia,REF,Tavush : Marz - Province,V,U,0,0,0,0,14,0,14,0,0,0,0,0,0,0,14
+2017,AZE,ARM,Azerbaijan,Armenia,REF,Vayots Dzor : Marz - Province,V,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2017,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan : City,U,I,0,0,0,107,69,0,176,0,0,0,104,32,0,136,312
+2017,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,412
+2017,PSE,ARM,State of Palestine,Armenia,REF,Yerevan : City,U,I,0,0,0,6,0,0,6,0,0,0,0,0,0,0,6
+2017,GEO,ARM,Georgia,Armenia,REF,Yerevan : City,U,I,0,0,0,8,0,0,8,0,0,0,0,0,0,0,8
+2017,CIV,ARM,Côte d'Ivoire,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,6,0,0,6,6
+2017,IRN,ARM,Iran (Islamic Republic of),Armenia,ASY,Yerevan : City,U,I,0,0,0,6,0,0,6,0,0,0,13,0,0,13,19
+2017,IRN,ARM,Iran (Islamic Republic of),Armenia,REF,Yerevan : City,U,I,0,0,0,10,0,0,10,0,0,8,13,0,0,21,31
+2017,IRQ,ARM,Iraq,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2017,IRQ,ARM,Iraq,Armenia,REF,Yerevan : City,U,I,32,49,64,316,73,0,534,35,47,59,328,58,0,527,1061
+2017,LBN,ARM,Lebanon,Armenia,REF,Yerevan : City,U,I,0,0,0,8,0,0,8,0,0,0,11,0,0,11,19
+2017,STA,ARM,Stateless,Armenia,STA,Yerevan : City,U,I,0,0,0,293,42,0,335,0,0,0,280,34,0,314,649
+2017,STA,ARM,Stateless,Armenia,STA,Yerevan : City,U,I,0,0,0,0,0,58,58,0,0,0,0,0,66,66,124
+2017,SYR,ARM,Syrian Arab Republic,Armenia,ASY,Yerevan : City,U,I,0,0,0,7,0,0,7,0,0,0,5,0,0,5,12
+2017,SYR,ARM,Syrian Arab Republic,Armenia,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14000
+2017,SYR,ARM,Syrian Arab Republic,Armenia,REF,Yerevan : City,U,I,0,5,0,10,0,0,15,0,0,5,11,0,0,16,31
+2017,SYR,ARM,Syrian Arab Republic,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,649
+2017,TUR,ARM,Türkiye,Armenia,ASY,Yerevan : City,U,I,0,0,0,5,0,0,5,0,0,0,5,0,0,5,10
+2017,TUR,ARM,Türkiye,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2017,UKR,ARM,Ukraine,Armenia,REF,Yerevan : City,U,I,9,11,0,45,0,0,65,5,8,9,26,0,0,48,113
+2017,UZB,ARM,Uzbekistan,Armenia,ASY,Yerevan : City,U,I,0,0,5,0,0,0,5,0,0,0,0,0,0,0,5
+2017,YEM,ARM,Yemen,Armenia,ASY,Yerevan : City,U,I,0,6,0,0,0,0,6,0,0,0,0,0,0,0,6
+2017,YEM,ARM,Yemen,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2018,AFG,ARM,Afghanistan,Armenia,ASY,Yerevan : City,U,I,0,0,0,5,0,0,5,5,0,0,6,0,0,11,16
+2018,AZE,ARM,Azerbaijan,Armenia,REF,Aragatsotn : Marz - Province,V,U,0,0,0,39,18,0,57,0,0,0,32,10,0,42,99
+2018,AZE,ARM,Azerbaijan,Armenia,REF,Ararat : Marz - Province,V,U,0,0,0,32,33,0,65,0,0,0,36,36,0,72,137
+2018,AZE,ARM,Azerbaijan,Armenia,REF,Armavir : Marz - Province,V,U,0,0,0,47,37,0,84,0,0,0,47,17,0,64,148
+2018,AZE,ARM,Azerbaijan,Armenia,REF,Gergharkunik : Marz - Province,V,U,0,0,0,34,12,0,46,0,0,0,36,12,0,48,94
+2018,AZE,ARM,Azerbaijan,Armenia,REF,Kotayk : Marz - Province,V,U,0,0,0,85,55,0,140,0,0,0,88,35,0,123,263
+2018,AZE,ARM,Azerbaijan,Armenia,REF,Lori : Marz - Province,V,U,0,0,0,43,14,0,57,0,0,0,38,10,0,48,105
+2018,AZE,ARM,Azerbaijan,Armenia,REF,Shirak : Marz - Province,V,U,0,0,0,12,5,0,17,0,0,0,9,5,0,14,31
+2018,AZE,ARM,Azerbaijan,Armenia,REF,Syunik : Marz - Province,V,U,0,0,0,54,17,0,71,0,0,0,47,6,0,53,124
+2018,AZE,ARM,Azerbaijan,Armenia,REF,Tavush : Marz - Province,V,U,0,0,0,5,15,0,20,0,0,0,0,0,0,0,20
+2018,AZE,ARM,Azerbaijan,Armenia,REF,Vayots Dzor : Marz - Province,V,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2018,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan : City,U,I,0,0,0,128,80,0,208,0,0,0,115,39,0,154,362
+2018,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,573
+2018,CUB,ARM,Cuba,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2018,PSE,ARM,State of Palestine,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,7,0,0,7,7
+2018,GEO,ARM,Georgia,Armenia,REF,Yerevan : City,U,I,0,0,0,8,0,0,8,0,0,0,0,0,0,0,8
+2018,CIV,ARM,Côte d'Ivoire,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,6,0,0,6,6
+2018,IRN,ARM,Iran (Islamic Republic of),Armenia,ASY,Yerevan : City,U,I,0,0,5,9,0,0,14,0,0,0,27,0,0,27,41
+2018,IRN,ARM,Iran (Islamic Republic of),Armenia,REF,Yerevan : City,U,I,5,0,0,7,0,0,12,0,0,8,16,0,0,24,36
+2018,IRQ,ARM,Iraq,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,9,9,0,0,0,0,0,0,0,9
+2018,IRQ,ARM,Iraq,Armenia,REF,Yerevan : City,U,I,32,52,64,324,72,0,544,37,47,60,338,57,0,539,1083
+2018,LBN,ARM,Lebanon,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2018,LBN,ARM,Lebanon,Armenia,REF,Yerevan : City,U,I,0,0,0,8,0,0,8,0,0,0,11,0,0,11,19
+2018,NGA,ARM,Nigeria,Armenia,REF,Yerevan : City,U,I,0,5,0,0,0,0,5,0,0,0,0,0,0,0,5
+2018,STA,ARM,Stateless,Armenia,STA,Yerevan : City,U,I,0,0,5,394,48,0,447,0,0,5,359,37,0,401,848
+2018,SYR,ARM,Syrian Arab Republic,Armenia,ASY,Yerevan : City,U,I,8,0,0,0,0,0,8,0,0,0,0,0,0,0,8
+2018,SYR,ARM,Syrian Arab Republic,Armenia,REF,Yerevan : City,U,I,22,39,32,182,46,0,321,22,40,45,231,42,0,380,701
+2018,SYR,ARM,Syrian Arab Republic,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14000
+2018,TUR,ARM,Türkiye,Armenia,ASY,Yerevan : City,U,I,0,0,0,6,0,0,6,0,0,0,10,0,0,10,16
+2018,TUR,ARM,Türkiye,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,5,5,5
+2018,UKR,ARM,Ukraine,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,5,0,0,0,0,5,5
+2018,UKR,ARM,Ukraine,Armenia,REF,Yerevan : City,U,I,9,11,0,45,0,0,65,5,8,9,28,0,0,50,115
+2018,YEM,ARM,Yemen,Armenia,REF,Yerevan : City,U,I,0,0,0,5,0,0,5,5,0,0,0,0,10,15,20
+2019,AFG,ARM,Afghanistan,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2019,EGY,ARM,Egypt,Armenia,REF,Armavir : Marz - Province,U,I,5,0,0,0,0,0,5,0,0,0,0,0,0,0,5
+2019,AZE,ARM,Azerbaijan,Armenia,ASY,Yerevan : City,U,I,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2019,AZE,ARM,Azerbaijan,Armenia,REF,Aragatsotn : Marz - Province,V,U,0,0,0,39,18,0,57,0,0,0,32,10,0,42,99
+2019,AZE,ARM,Azerbaijan,Armenia,REF,Ararat : Marz - Province,V,U,0,0,0,32,33,0,65,0,0,0,36,36,0,72,137
+2019,AZE,ARM,Azerbaijan,Armenia,REF,Armavir : Marz - Province,V,U,0,0,0,47,37,0,84,0,0,0,47,17,0,64,148
+2019,AZE,ARM,Azerbaijan,Armenia,REF,Gergharkunik : Marz - Province,V,U,0,0,0,34,12,0,46,0,0,0,36,12,0,48,94
+2019,AZE,ARM,Azerbaijan,Armenia,REF,Kotayk : Marz - Province,V,U,0,0,0,85,55,0,140,0,0,0,88,35,0,123,263
+2019,AZE,ARM,Azerbaijan,Armenia,REF,Lori : Marz - Province,V,U,0,0,0,43,14,0,57,0,0,0,38,10,0,48,105
+2019,AZE,ARM,Azerbaijan,Armenia,REF,Shirak : Marz - Province,V,U,0,0,0,12,5,0,17,0,0,0,9,5,0,14,31
+2019,AZE,ARM,Azerbaijan,Armenia,REF,Syunik : Marz - Province,V,U,0,0,0,54,17,0,71,0,0,0,47,6,0,53,124
+2019,AZE,ARM,Azerbaijan,Armenia,REF,Tavush : Marz - Province,V,U,0,0,0,5,15,0,20,0,0,0,0,0,0,0,20
+2019,AZE,ARM,Azerbaijan,Armenia,REF,Vayots Dzor : Marz - Province,V,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2019,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan : City,U,I,0,0,0,113,63,0,176,0,0,0,77,36,0,113,289
+2019,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,573
+2019,CUB,ARM,Cuba,Armenia,ASY,Yerevan : City,U,I,0,0,0,5,0,0,5,0,0,0,18,0,0,18,23
+2019,PSE,ARM,State of Palestine,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,7,0,0,7,7
+2019,GEO,ARM,Georgia,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2019,GEO,ARM,Georgia,Armenia,REF,Yerevan : City,U,I,0,0,0,8,0,0,8,0,0,0,0,0,0,0,8
+2019,CIV,ARM,Côte d'Ivoire,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,6,0,0,6,6
+2019,IRN,ARM,Iran (Islamic Republic of),Armenia,ASY,Yerevan : City,U,I,0,6,0,21,0,0,27,5,0,5,47,0,0,57,84
+2019,IRN,ARM,Iran (Islamic Republic of),Armenia,REF,Yerevan : City,U,I,7,0,0,18,0,0,25,5,0,6,32,0,0,43,68
+2019,IRQ,ARM,Iraq,Armenia,REF,Yerevan : City,U,I,33,53,64,325,72,0,547,38,47,61,337,57,0,540,1087
+2019,LBN,ARM,Lebanon,Armenia,REF,Yerevan : City,U,I,0,0,0,9,0,0,9,0,5,0,10,0,0,15,24
+2019,NGA,ARM,Nigeria,Armenia,REF,Yerevan : City,U,I,0,5,0,0,0,0,5,0,0,0,0,0,0,0,5
+2019,RUS,ARM,Russian Federation,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2019,STA,ARM,Stateless,Armenia,STA,Yerevan : City,U,I,0,0,0,402,70,0,472,0,0,0,419,70,0,489,961
+2019,SYR,ARM,Syrian Arab Republic,Armenia,ASY,Yerevan : City,U,I,0,0,0,6,0,0,6,0,0,5,5,0,0,10,16
+2019,SYR,ARM,Syrian Arab Republic,Armenia,REF,Yerevan : City,U,I,25,40,32,188,47,0,332,23,41,48,242,44,0,398,730
+2019,SYR,ARM,Syrian Arab Republic,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14000
+2019,TUR,ARM,Türkiye,Armenia,ASY,Yerevan : City,U,I,0,0,0,6,0,0,6,0,0,0,9,0,0,9,15
+2019,TUR,ARM,Türkiye,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,9,0,0,9,9
+2019,UKR,ARM,Ukraine,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,5,0,0,0,0,5,5
+2019,UKR,ARM,Ukraine,Armenia,REF,Yerevan : City,U,I,10,11,0,44,0,0,65,5,9,9,28,0,0,51,116
+2019,YEM,ARM,Yemen,Armenia,REF,Yerevan : City,U,I,0,0,0,5,0,0,5,5,0,0,12,0,0,17,22
+2020,AFG,ARM,Afghanistan,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2020,EGY,ARM,Egypt,Armenia,REF,Armavir : Marz - Province,U,I,5,0,0,0,0,0,5,0,0,0,0,0,0,0,5
+2020,AZE,ARM,Azerbaijan,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2020,AZE,ARM,Azerbaijan,Armenia,REF,Aragatsotn : Marz - Province,U,U,176,187,218,1223,297,0,2101,196,211,184,210,148,0,949,3050
+2020,AZE,ARM,Azerbaijan,Armenia,REF,Aragatsotn : Marz - Province,V,U,0,0,0,39,18,0,57,0,0,0,32,10,0,42,99
+2020,AZE,ARM,Azerbaijan,Armenia,REF,Ararat : Marz - Province,U,U,543,476,439,2763,769,66,5056,472,520,776,263,417,37,2485,7541
+2020,AZE,ARM,Azerbaijan,Armenia,REF,Ararat : Marz - Province,V,U,0,0,0,32,33,0,65,0,0,0,36,36,0,72,137
+2020,AZE,ARM,Azerbaijan,Armenia,REF,Armavir : Marz - Province,U,U,431,423,405,2341,719,12,4331,436,462,400,606,346,7,2257,6588
+2020,AZE,ARM,Azerbaijan,Armenia,REF,Armavir : Marz - Province,V,U,0,0,0,47,37,0,84,0,0,0,47,17,0,64,148
+2020,AZE,ARM,Azerbaijan,Armenia,REF,Gergharkunik : Marz - Province,U,U,250,219,211,1248,346,10,2284,231,237,225,498,173,5,1369,3653
+2020,AZE,ARM,Azerbaijan,Armenia,REF,Gergharkunik : Marz - Province,V,U,0,0,0,34,12,0,46,0,0,0,36,12,0,48,94
+2020,AZE,ARM,Azerbaijan,Armenia,REF,Kotayk : Marz - Province,U,I,940,1019,967,6165,1794,19,10904,1070,1081,1006,1097,870,12,5136,16040
+2020,AZE,ARM,Azerbaijan,Armenia,REF,Kotayk : Marz - Province,V,U,0,0,0,85,55,0,140,0,0,0,88,35,0,123,263
+2020,AZE,ARM,Azerbaijan,Armenia,REF,Lori : Marz - Province,U,I,226,207,190,1152,312,0,2087,236,206,199,305,169,0,1115,3202
+2020,AZE,ARM,Azerbaijan,Armenia,REF,Lori : Marz - Province,V,U,0,0,0,43,14,0,57,0,0,0,38,10,0,48,105
+2020,AZE,ARM,Azerbaijan,Armenia,REF,Shirak : Marz - Province,U,U,135,114,111,612,133,0,1105,120,130,92,238,78,0,658,1763
+2020,AZE,ARM,Azerbaijan,Armenia,REF,Shirak : Marz - Province,V,U,0,0,0,12,5,0,17,0,0,0,9,5,0,14,31
+2020,AZE,ARM,Azerbaijan,Armenia,REF,Syunik : Marz - Province,U,U,520,463,413,2840,818,15,5069,531,508,466,1079,516,6,3106,8175
+2020,AZE,ARM,Azerbaijan,Armenia,REF,Syunik : Marz - Province,V,U,0,0,0,0,0,0,0,0,0,0,0,0,24,24,24
+2020,AZE,ARM,Azerbaijan,Armenia,REF,Tavush : Marz - Province,U,U,95,127,106,655,152,5,1140,122,113,111,195,79,0,620,1760
+2020,AZE,ARM,Azerbaijan,Armenia,REF,Tavush : Marz - Province,V,U,0,0,0,5,15,0,20,0,0,0,0,0,0,0,20
+2020,AZE,ARM,Azerbaijan,Armenia,REF,Vayots Dzor : Marz - Province,U,U,155,156,164,923,279,0,1677,159,164,172,379,164,0,1038,2715
+2020,AZE,ARM,Azerbaijan,Armenia,REF,Vayots Dzor : Marz - Province,V,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2020,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan : City,U,I,1903,1870,1984,14462,4475,32,24726,2040,2075,2000,2830,2087,22,11054,35780
+2020,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,573
+2020,COG,ARM,Congo,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2020,CUB,ARM,Cuba,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,7,7,0,0,0,0,0,19,19,26
+2020,PSE,ARM,State of Palestine,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,7,0,0,7,7
+2020,GEO,ARM,Georgia,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2020,GEO,ARM,Georgia,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,8,8,0,0,0,0,0,0,0,8
+2020,CIV,ARM,Côte d'Ivoire,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,6,0,0,6,6
+2020,IND,ARM,India,Armenia,ASY,Armavir : Marz - Province,U,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2020,IRN,ARM,Iran (Islamic Republic of),Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,20,20,0,0,0,0,0,46,46,66
+2020,IRN,ARM,Iran (Islamic Republic of),Armenia,REF,Yerevan : City,U,I,7,0,0,18,0,0,25,5,0,6,32,0,34,77,102
+2020,IRQ,ARM,Iraq,Armenia,REF,Yerevan : City,U,I,33,53,64,325,71,0,546,38,47,62,337,56,0,540,1086
+2020,LBN,ARM,Lebanon,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2020,LBN,ARM,Lebanon,Armenia,REF,Yerevan : City,U,I,0,0,0,10,0,0,10,0,0,0,10,5,0,15,25
+2020,NGA,ARM,Nigeria,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,5,5,5
+2020,RUS,ARM,Russian Federation,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,5,5,0,0,0,0,0,0,0,5
+2020,STA,ARM,Stateless,Armenia,STA,Yerevan : City,U,I,0,0,0,402,70,0,472,0,0,0,419,70,0,489,961
+2020,STA,ARM,Stateless,Armenia,STA,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39
+2020,SYR,ARM,Syrian Arab Republic,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,5,0,5,5
+2020,SYR,ARM,Syrian Arab Republic,Armenia,REF,Yerevan : City,U,I,25,40,32,188,47,0,332,23,41,48,242,55,0,409,741
+2020,SYR,ARM,Syrian Arab Republic,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14000
+2020,TUR,ARM,Türkiye,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,5,5,0,0,0,0,0,9,9,14
+2020,TUR,ARM,Türkiye,Armenia,REF,Yerevan : City,U,I,0,0,0,5,0,0,5,0,0,0,8,0,0,8,13
+2020,UKR,ARM,Ukraine,Armenia,REF,Yerevan : City,U,I,10,11,0,43,0,0,64,5,9,9,28,0,0,51,115
+2020,YEM,ARM,Yemen,Armenia,REF,Yerevan : City,U,I,0,0,0,5,0,0,5,0,0,0,16,0,0,16,21
+2021,AFG,ARM,Afghanistan,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2021,EGY,ARM,Egypt,Armenia,REF,Yerevan : City,U,I,5,0,0,0,0,0,5,0,0,0,0,0,0,0,5
+2021,AZE,ARM,Azerbaijan,Armenia,REF,Aragatsotn : Marz - Province,V,U,0,0,0,53,0,0,53,0,0,0,42,0,0,42,95
+2021,AZE,ARM,Azerbaijan,Armenia,REF,Ararat : Marz - Province,V,U,0,0,0,32,33,0,65,0,0,0,36,36,0,72,137
+2021,AZE,ARM,Azerbaijan,Armenia,REF,Armavir : Marz - Province,V,U,0,0,0,47,37,0,84,0,0,0,47,17,0,64,148
+2021,AZE,ARM,Azerbaijan,Armenia,REF,Gergharkunik : Marz - Province,V,U,0,0,0,34,12,0,46,0,0,0,36,12,0,48,94
+2021,AZE,ARM,Azerbaijan,Armenia,REF,Kotayk : Marz - Province,V,U,0,0,0,85,55,0,140,0,0,0,88,35,0,123,263
+2021,AZE,ARM,Azerbaijan,Armenia,REF,Lori : Marz - Province,V,U,0,0,0,43,14,0,57,0,0,0,38,10,0,48,105
+2021,AZE,ARM,Azerbaijan,Armenia,REF,Shirak : Marz - Province,V,U,0,0,0,12,5,0,17,0,0,0,9,5,0,14,31
+2021,AZE,ARM,Azerbaijan,Armenia,REF,Syunik : Marz - Province,V,U,0,0,0,0,0,0,0,0,0,0,0,0,24,24,24
+2021,AZE,ARM,Azerbaijan,Armenia,REF,Tavush : Marz - Province,V,U,0,0,0,5,15,0,20,0,0,0,0,0,0,0,20
+2021,AZE,ARM,Azerbaijan,Armenia,REF,Vayots Dzor : Marz - Province,V,U,0,0,0,8,0,0,8,0,0,0,0,0,0,0,8
+2021,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan : City,U,I,0,0,0,113,62,0,175,0,0,0,72,31,0,103,278
+2021,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26730
+2021,COG,ARM,Congo,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2021,CUB,ARM,Cuba,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,6,6,0,0,0,0,0,7,7,13
+2021,CUB,ARM,Cuba,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2021,PSE,ARM,State of Palestine,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,7,0,0,7,7
+2021,GEO,ARM,Georgia,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2021,GEO,ARM,Georgia,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,8,8,0,0,0,0,0,0,0,8
+2021,CIV,ARM,Côte d'Ivoire,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,6,0,0,6,6
+2021,IRN,ARM,Iran (Islamic Republic of),Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,88
+2021,IRN,ARM,Iran (Islamic Republic of),Armenia,REF,Yerevan : City,U,I,7,0,0,18,0,24,49,5,0,6,32,0,47,90,139
+2021,IRQ,ARM,Iraq,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39
+2021,IRQ,ARM,Iraq,Armenia,REF,Yerevan : City,U,I,33,53,64,325,71,6,552,38,47,61,337,55,5,543,1095
+2021,LBN,ARM,Lebanon,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2021,LBN,ARM,Lebanon,Armenia,REF,Yerevan : City,U,I,0,0,0,10,0,0,10,0,0,0,11,5,0,16,26
+2021,MMR,ARM,Myanmar,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2021,NGA,ARM,Nigeria,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,5,5,5
+2021,RUS,ARM,Russian Federation,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6
+2021,STA,ARM,Stateless,Armenia,STA,Yerevan : City,U,I,0,0,0,320,81,0,401,5,0,0,391,73,0,469,870
+2021,SYR,ARM,Syrian Arab Republic,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8
+2021,SYR,ARM,Syrian Arab Republic,Armenia,REF,Yerevan : City,U,I,25,40,32,188,48,10,343,23,41,48,242,55,9,418,761
+2021,SYR,ARM,Syrian Arab Republic,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4574
+2021,TUR,ARM,Türkiye,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,5,5,0,0,0,0,0,7,7,12
+2021,TUR,ARM,Türkiye,Armenia,REF,Yerevan : City,U,I,0,0,0,5,0,0,5,0,0,0,11,0,0,11,16
+2021,UKR,ARM,Ukraine,Armenia,REF,Yerevan : City,U,I,10,12,0,43,0,0,65,5,9,9,29,0,0,52,117
+2021,YEM,ARM,Yemen,Armenia,REF,Yerevan : City,U,I,0,0,0,5,0,0,5,0,0,0,16,0,0,16,21
+2022,AFG,ARM,Afghanistan,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9
+2022,EGY,ARM,Egypt,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24
+2022,EGY,ARM,Egypt,Armenia,REF,Yerevan : City,U,I,5,0,0,0,0,0,5,0,0,0,0,0,0,0,5
+2022,AZE,ARM,Azerbaijan,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2022,AZE,ARM,Azerbaijan,Armenia,REF,Aragatsotn : Marz - Province,V,U,0,0,0,53,0,0,53,0,0,0,42,0,0,42,95
+2022,AZE,ARM,Azerbaijan,Armenia,REF,Ararat : Marz - Province,V,U,0,0,0,32,33,0,65,0,0,0,36,36,0,72,137
+2022,AZE,ARM,Azerbaijan,Armenia,REF,Armavir : Marz - Province,V,U,0,0,0,47,37,0,84,0,0,0,47,17,0,64,148
+2022,AZE,ARM,Azerbaijan,Armenia,REF,Gergharkunik : Marz - Province,V,U,0,0,0,34,12,0,46,0,0,0,36,12,0,48,94
+2022,AZE,ARM,Azerbaijan,Armenia,REF,Kotayk : Marz - Province,V,U,0,0,0,85,55,0,140,0,0,0,88,35,0,123,263
+2022,AZE,ARM,Azerbaijan,Armenia,REF,Lori : Marz - Province,V,U,0,0,0,43,14,0,57,0,0,0,38,10,0,48,105
+2022,AZE,ARM,Azerbaijan,Armenia,REF,Shirak : Marz - Province,V,U,0,0,0,12,5,0,17,0,0,0,9,5,0,14,31
+2022,AZE,ARM,Azerbaijan,Armenia,REF,Syunik : Marz - Province,V,U,0,0,0,0,0,0,0,0,0,0,0,0,24,24,24
+2022,AZE,ARM,Azerbaijan,Armenia,REF,Tavush : Marz - Province,V,U,0,0,0,5,15,0,20,0,0,0,0,0,0,0,20
+2022,AZE,ARM,Azerbaijan,Armenia,REF,Vayots Dzor : Marz - Province,V,U,0,0,0,8,0,0,8,0,0,0,0,0,0,0,8
+2022,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan : City,U,I,0,0,0,113,62,0,175,0,0,0,72,31,0,103,278
+2022,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26730
+2022,COG,ARM,Congo,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2022,CUB,ARM,Cuba,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17
+2022,CUB,ARM,Cuba,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2022,PSE,ARM,State of Palestine,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,7,0,0,7,7
+2022,GEO,ARM,Georgia,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2022,GEO,ARM,Georgia,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,9,9,9
+2022,HTI,ARM,Haiti,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2022,CIV,ARM,Côte d'Ivoire,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,6,0,0,6,6
+2022,IND,ARM,India,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2022,IRN,ARM,Iran (Islamic Republic of),Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,129
+2022,IRN,ARM,Iran (Islamic Republic of),Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,158
+2022,IRQ,ARM,Iraq,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,184
+2022,IRQ,ARM,Iraq,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1123
+2022,LBN,ARM,Lebanon,Armenia,REF,Yerevan : City,U,I,0,0,0,10,0,0,10,0,0,0,11,5,0,16,26
+2022,MMR,ARM,Myanmar,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2022,NGA,ARM,Nigeria,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,6,0,5,11,11
+2022,PAK,ARM,Pakistan,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6
+2022,RUS,ARM,Russian Federation,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20
+2022,STA,ARM,Stateless,Armenia,STA,Yerevan : City,U,I,0,0,0,238,73,0,311,0,0,0,296,65,0,361,672
+2022,SYR,ARM,Syrian Arab Republic,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24
+2022,SYR,ARM,Syrian Arab Republic,Armenia,REF,Yerevan : City,U,I,25,40,32,188,49,10,344,23,41,48,244,55,9,420,764
+2022,SYR,ARM,Syrian Arab Republic,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4124
+2022,TUR,ARM,Türkiye,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18
+2022,TUR,ARM,Türkiye,Armenia,REF,Yerevan : City,U,I,0,0,0,5,0,0,5,0,0,0,12,0,0,12,17
+2022,UKN,ARM,Various / unknown,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2022,UKR,ARM,Ukraine,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,122
+2022,UKR,ARM,Ukraine,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,406
+2022,YEM,ARM,Yemen,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6
+2022,YEM,ARM,Yemen,Armenia,REF,Yerevan : City,U,I,0,0,0,5,0,0,5,0,0,0,16,0,0,16,21
+2022,ZWE,ARM,Zimbabwe,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2023,AFG,ARM,Afghanistan,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9
+2023,DZA,ARM,Algeria,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6
+2023,EGY,ARM,Egypt,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,68
+2023,EGY,ARM,Egypt,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,8,0,0,8,8
+2023,AZE,ARM,Azerbaijan,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2023,AZE,ARM,Azerbaijan,Armenia,REF,Aragatsotn : Marz - Province,V,U,0,0,0,53,0,0,53,0,0,0,37,0,0,37,90
+2023,AZE,ARM,Azerbaijan,Armenia,REF,Ararat : Marz - Province,V,U,0,0,0,32,33,0,65,0,0,0,36,36,0,72,137
+2023,AZE,ARM,Azerbaijan,Armenia,REF,Armavir : Marz - Province,V,U,0,0,0,47,37,0,84,0,0,0,41,17,0,58,142
+2023,AZE,ARM,Azerbaijan,Armenia,REF,Gergharkunik : Marz - Province,V,U,0,0,0,34,12,0,46,0,0,0,36,12,0,48,94
+2023,AZE,ARM,Azerbaijan,Armenia,REF,Kotayk : Marz - Province,V,U,0,0,0,75,55,0,130,0,0,0,78,35,0,113,243
+2023,AZE,ARM,Azerbaijan,Armenia,REF,Lori : Marz - Province,V,U,0,0,0,43,14,0,57,0,0,0,38,10,0,48,105
+2023,AZE,ARM,Azerbaijan,Armenia,REF,Shirak : Marz - Province,V,U,0,0,0,12,5,0,17,0,0,0,9,5,0,14,31
+2023,AZE,ARM,Azerbaijan,Armenia,REF,Syunik : Marz - Province,V,U,0,0,0,0,0,0,0,0,0,0,0,0,24,24,24
+2023,AZE,ARM,Azerbaijan,Armenia,REF,Tavush : Marz - Province,V,U,0,0,0,5,15,0,20,0,0,0,0,0,0,0,20
+2023,AZE,ARM,Azerbaijan,Armenia,REF,Vayots Dzor : Marz - Province,V,U,0,0,0,8,0,0,8,0,0,0,0,0,0,0,8
+2023,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan : City,U,I,0,0,0,103,63,0,166,0,0,0,72,35,0,107,273
+2023,AZE,ARM,Azerbaijan,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,141887
+2023,COG,ARM,Congo,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2023,COD,ARM,Democratic Republic of the Congo,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2023,CUB,ARM,Cuba,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,10,0,0,10,10
+2023,CUB,ARM,Cuba,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2023,PSE,ARM,State of Palestine,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,7,0,0,7,7
+2023,GEO,ARM,Georgia,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2023,GEO,ARM,Georgia,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,9,9,9
+2023,HTI,ARM,Haiti,Armenia,REF,Yerevan : City,U,I,0,0,0,10,0,0,10,0,5,0,10,0,0,15,25
+2023,CIV,ARM,Côte d'Ivoire,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,6,0,0,6,6
+2023,IRN,ARM,Iran (Islamic Republic of),Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,190
+2023,IRN,ARM,Iran (Islamic Republic of),Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,169
+2023,IRQ,ARM,Iraq,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,184
+2023,IRQ,ARM,Iraq,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1162
+2023,JOR,ARM,Jordan,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2023,LBN,ARM,Lebanon,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2023,LBN,ARM,Lebanon,Armenia,REF,Yerevan : City,U,I,0,0,0,10,0,0,10,0,0,0,11,5,0,16,26
+2023,MDA,ARM,Republic of Moldova,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,5,5,0,0,0,0,0,0,0,5
+2023,MAR,ARM,Morocco,Armenia,ASY,Yerevan : City,U,I,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2023,MMR,ARM,Myanmar,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,9,9,9
+2023,NGA,ARM,Nigeria,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,12,0,5,17,17
+2023,PAK,ARM,Pakistan,Armenia,REF,Yerevan : City,U,I,0,8,0,0,0,0,8,0,0,0,0,0,0,0,8
+2023,RUS,ARM,Russian Federation,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40
+2023,STA,ARM,Stateless,Armenia,STA,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,520
+2023,SYR,ARM,Syrian Arab Republic,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13
+2023,SYR,ARM,Syrian Arab Republic,Armenia,REF,Yerevan : City,U,I,25,44,32,191,49,10,351,25,44,48,250,55,9,431,782
+2023,SYR,ARM,Syrian Arab Republic,Armenia,REF,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4124
+2023,TKM,ARM,Turkmenistan,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2023,TUR,ARM,Türkiye,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18
+2023,TUR,ARM,Türkiye,Armenia,REF,Yerevan : City,U,I,0,0,0,8,0,0,8,0,0,0,16,0,0,16,24
+2023,UKN,ARM,Various / unknown,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2023,UKR,ARM,Ukraine,Armenia,ASY,Yerevan : City,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46
+2023,UKR,ARM,Ukraine,Armenia,REF,Yerevan : City,U,I,11,15,8,73,12,0,119,12,15,7,40,5,401,480,599
+2023,YEM,ARM,Yemen,Armenia,REF,Yerevan : City,U,I,0,0,0,6,0,0,6,0,0,0,21,0,0,21,27
+2024,AFG,ARM,Afghanistan,Armenia,ASY,Yerevan [Admin 1],U,I,0,0,0,0,0,0,0,0,0,0,0,0,10,10,10
+2024,AFG,ARM,Afghanistan,Armenia,REF,Dispersed in the country / territory,V,I,0,0,0,0,0,0,0,0,0,0,5,0,7,12,12
+2024,DZA,ARM,Algeria,Armenia,ASY,Yerevan [Admin 1],U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6
+2024,EGY,ARM,Egypt,Armenia,ASY,Yerevan [Admin 1],U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,137
+2024,EGY,ARM,Egypt,Armenia,REF,Dispersed in the country / territory,V,I,0,0,0,5,0,0,5,0,0,0,7,0,0,7,12
+2024,ARM,ARM,Armenia,Armenia,RET,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18
+2024,AZE,ARM,Azerbaijan,Armenia,ASY,Yerevan [Admin 1],U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2024,AZE,ARM,Azerbaijan,Armenia,REF,Dispersed in the country / territory,V,I,0,11026,3684,35702,9449,11125,70986,0,11739,3877,33707,6204,9477,65004,135990
+2024,AZE,ARM,Azerbaijan,Armenia,REF,Dispersed in the country / territory,V,I,0,0,0,0,0,631,631,0,0,0,0,0,526,526,1157
+2024,BLR,ARM,Belarus,Armenia,ASY,Yerevan [Admin 1],U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2024,BLR,ARM,Belarus,Armenia,REF,Dispersed in the country / territory,V,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2024,CHN,ARM,China,Armenia,ASY,Yerevan [Admin 1],U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2024,COG,ARM,Congo,Armenia,REF,Dispersed in the country / territory,V,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2024,COD,ARM,Democratic Republic of the Congo,Armenia,REF,Dispersed in the country / territory,V,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2024,CUB,ARM,Cuba,Armenia,ASY,Yerevan [Admin 1],U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24
+2024,CUB,ARM,Cuba,Armenia,REF,Dispersed in the country / territory,V,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2024,PSE,ARM,State of Palestine,Armenia,REF,Dispersed in the country / territory,V,I,0,0,0,0,0,0,0,0,0,0,7,0,0,7,7
+2024,GEO,ARM,Georgia,Armenia,ASY,Yerevan [Admin 1],U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14
+2024,GEO,ARM,Georgia,Armenia,REF,Dispersed in the country / territory,V,I,0,0,0,0,0,0,0,0,0,0,0,0,9,9,9
+2024,DEU,ARM,Germany,Armenia,ASY,Yerevan [Admin 1],U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2024,HTI,ARM,Haiti,Armenia,ASY,Yerevan [Admin 1],U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7
+2024,HTI,ARM,Haiti,Armenia,REF,Dispersed in the country / territory,V,I,0,0,0,5,0,8,13,0,5,0,14,0,0,19,32
+2024,CIV,ARM,Côte d'Ivoire,Armenia,REF,Dispersed in the country / territory,V,I,0,0,0,0,0,0,0,0,0,0,6,0,0,6,6
+2024,IRN,ARM,Iran (Islamic Republic of),Armenia,ASY,Yerevan [Admin 1],U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298
+2024,IRN,ARM,Iran (Islamic Republic of),Armenia,REF,Dispersed in the country / territory,V,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,180
+2024,IRQ,ARM,Iraq,Armenia,ASY,Yerevan [Admin 1],U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,246
+2024,IRQ,ARM,Iraq,Armenia,REF,Dispersed in the country / territory,V,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1197
+2024,ISR,ARM,Israel,Armenia,ASY,Yerevan [Admin 1],U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2024,JOR,ARM,Jordan,Armenia,ASY,Yerevan [Admin 1],U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2024,LBN,ARM,Lebanon,Armenia,ASY,Yerevan [Admin 1],U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15
+2024,LBN,ARM,Lebanon,Armenia,REF,Dispersed in the country / territory,V,I,0,0,0,10,0,0,10,0,0,0,14,5,0,19,29
+2024,MDA,ARM,Republic of Moldova,Armenia,ASY,Yerevan [Admin 1],U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10
+2024,MAR,ARM,Morocco,Armenia,ASY,Yerevan [Admin 1],U,I,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2024,MMR,ARM,Myanmar,Armenia,REF,Dispersed in the country / territory,V,I,0,0,0,0,0,0,0,0,0,9,0,0,0,9,9
+2024,NGA,ARM,Nigeria,Armenia,REF,Dispersed in the country / territory,V,I,0,0,0,0,0,0,0,0,0,0,14,0,5,19,19
+2024,PAK,ARM,Pakistan,Armenia,REF,Dispersed in the country / territory,V,I,0,8,0,0,0,0,8,0,0,0,0,0,0,0,8
+2024,RUS,ARM,Russian Federation,Armenia,ASY,Yerevan [Admin 1],U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55
+2024,RUS,ARM,Russian Federation,Armenia,REF,Dispersed in the country / territory,V,I,0,0,0,8,0,0,8,0,0,0,0,0,0,0,8
+2024,STA,ARM,Stateless,Armenia,STA,Dispersed in the country / territory,V,I,0,0,0,0,0,117,117,0,0,0,0,0,62,62,179
+2024,STA,ARM,Stateless,Armenia,STA,Dispersed in the country / territory,V,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,194
+2024,SDN,ARM,Sudan,Armenia,REF,Dispersed in the country / territory,V,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2024,SYR,ARM,Syrian Arab Republic,Armenia,ASY,Yerevan [Admin 1],U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18
+2024,SYR,ARM,Syrian Arab Republic,Armenia,REF,Dispersed in the country / territory,V,I,25,44,32,196,49,10,356,25,44,48,255,55,9,436,792
+2024,SYR,ARM,Syrian Arab Republic,Armenia,REF,Dispersed in the country / territory,V,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4124
+2024,TJK,ARM,Tajikistan,Armenia,ASY,Yerevan [Admin 1],U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2024,TUN,ARM,Tunisia,Armenia,ASY,Yerevan [Admin 1],U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2024,TUR,ARM,Türkiye,Armenia,ASY,Yerevan [Admin 1],U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22
+2024,TUR,ARM,Türkiye,Armenia,REF,Dispersed in the country / territory,V,I,0,0,0,8,0,0,8,0,0,0,17,0,0,17,25
+2024,UKN,ARM,Various / unknown,Armenia,REF,Dispersed in the country / territory,V,I,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2024,UKR,ARM,Ukraine,Armenia,ASY,Yerevan [Admin 1],U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,63
+2024,UKR,ARM,Ukraine,Armenia,REF,Dispersed in the country / territory,V,I,11,15,8,123,12,0,169,12,15,7,97,5,401,537,706
+2024,UZB,ARM,Uzbekistan,Armenia,ASY,Yerevan [Admin 1],U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2024,YEM,ARM,Yemen,Armenia,REF,Dispersed in the country / territory,V,I,0,0,0,6,0,0,6,0,0,0,21,0,0,21,27

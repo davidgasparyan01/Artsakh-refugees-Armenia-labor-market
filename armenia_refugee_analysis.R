@@ -6,14 +6,9 @@
 # ==============================================================================
 # 0. INSTALL AND LOAD PACKAGES
 # ==============================================================================
-# install.packages(c("dagitty", "ggdag", "ggplot2", "dplyr", "patchwork", "ggraph", "tidyverse", "lmtest", "sandwich", "AER"))
+# install.packages(c("dplyr", "tidyverse", "lmtest", "sandwich", "AER"))
 
-library(dagitty)
-library(ggdag)
-library(ggplot2)
 library(dplyr)
-library(patchwork)
-library(ggraph)
 library(tidyverse)
 library(lmtest)
 library(sandwich)
@@ -251,7 +246,7 @@ first_stage_diagnostics <- function(panel_data, treat_var, controls_str,
   }
   webb_p <- mean(abs(t_star) >= abs(t_obs))
   
-  list(F_crve = F_crve, F_hc1raw = F_hc1raw, crve_p = crve_p, webb_p = webb_p, G = G)
+  list(F_crve = F_crve, crve_p = crve_p, webb_p = webb_p, G = G)
 }
 
 # ==============================================================================
@@ -616,13 +611,12 @@ generate_html_doc <- function(table_title, panel_A, panel_B, panel_C, panel_D, e
   caption { font-weight: bold; font-size: 14px; margin-bottom: 8px; text-align: left; } </style></head><body><table><caption>', table_title, '</caption><thead>
 <tr><th style="width:20%"></th><th>(1)<br>OLS<br>Dynamic</th><th>(2)<br>IV Pooled<br>2023\u20132024</th><th>(3)<br>IV<br>2023 Only</th><th>(4)<br>IV<br>2024 Only</th></tr>
 </thead><tbody>\n', panel_A, panel_B, panel_C, panel_D, '<tr class="final-border"><td colspan="5"></td></tr></tbody></table><p class="note">
-Notes: All models include region fixed effects, year fixed effects, and region-specific linear trends.<br>
-Panels A, C, and D include real wages (level, thousand AMD) as a control variable; Panel B does not, since real wage is the
-dependent variable there, expressed in natural logs (coefficients are approximate semi-elasticities; multiply by 100 for a
-percentage effect).<br>
-Standard errors, t-statistics, and the first-stage F-statistic are all based on the cluster-robust variance estimator (CRVE), clustered
-by region, with the HC1 small-sample correction and t(G\u22121) critical values (G = 11 regions).<br>
-IV models use a Bartik instrument constructed from 2020 Artsakhi migration settlement shares.<br>', extra_notes,
+Notes: Standard errors, t-statistics, and first-stage F-statistics are based on the cluster-robust variance
+estimator (CRVE), with clustering by region, the HC1 small-sample correction, and t(G\u22121) critical values (G = 11 regions).
+The line beneath each Webb bootstrap p-value reports the wild-bootstrap Anderson-Rubin (AR) p-value for the same null hypothesis
+(treatment coefficient = 0). Stars in the First-stage F (CRVE) row denote the significance of the instrument under the asymptotic
+CRVE t(G\u22121) test and follow the same convention as the coefficient stars. The separate First-stage Webb p-value row provides
+the more conservative benchmark.', extra_notes,
          '<br>* p &lt; 0.10, ** p &lt; 0.05, *** p &lt; 0.01.</p></body></html>')
 }
 
@@ -634,12 +628,6 @@ ar_objs_B <- list(NA, ar_pvals$B$pooled, ar_pvals$B$y2023, ar_pvals$B$y2024)
 ar_objs_C <- list(NA, ar_pvals$C$pooled, ar_pvals$C$y2023, ar_pvals$C$y2024)
 ar_objs_D <- list(NA, ar_pvals$D$pooled, ar_pvals$D$y2023, ar_pvals$D$y2024)
 
-table1_notes <- paste0(
-  "The line beneath each Webb Bootstrap p-value reports the wild bootstrap Anderson-Rubin (AR) p-value for the same null ",
-  "hypothesis (treatment coefficient = 0); the AR test controls size regardless of instrument strength (Wang and Zhang, 2024).<br>",
-  "Stars on the First-stage F (CRVE) row denote significance of the CRVE asymptotic t(G\u22121) test on the instrument, using the ",
-  "same convention as the coefficient stars; the separate First-stage Webb p-value row below it remains the more conservative benchmark."
-)
 
 # --- Table 1: main results (with CRVE-consistent SEs / F-stat) ---
 writeLines(generate_html_doc(
@@ -648,7 +636,6 @@ writeLines(generate_html_doc(
   build_panel_rows(rwage_models,     "B", "log(Real Wage), 2008 base",       FALSE, wcb_pvals$B, fs_row_objs_noctrl, ar_objs_B),
   build_panel_rows(unemp_lvl_models, "C", "Unemployed Persons (thousands)",  TRUE,  wcb_pvals$C, fs_row_objs_ctrl,   ar_objs_C),
   build_panel_rows(emp_lvl_models,   "D", "Employed Persons (thousands)",    TRUE,  wcb_pvals$D, fs_row_objs_ctrl,   ar_objs_D),
-  extra_notes = table1_notes
 ), "regression_table_1_main.html")
 
 

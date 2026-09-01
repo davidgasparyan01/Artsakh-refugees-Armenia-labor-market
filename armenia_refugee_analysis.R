@@ -1,32 +1,7 @@
 # ==============================================================================
-# MASTER SCRIPT (REVISED): IMPACT OF REFUGEE INFLUX ON ARMENIA'S LABOR MARKET
-# INCLUDES: DAGs, OLS/IV ESTIMATION, PLACEBO TESTS, WILD CLUSTER BOOTSTRAP,
+# IMPACT OF REFUGEE INFLUX ON ARMENIA'S LABOR MARKET
+# INCLUDES: OLS/IV ESTIMATION, PLACEBO TESTS, WILD CLUSTER BOOTSTRAP,
 #           AND FIRST-STAGE INSTRUMENT STRENGTH DIAGNOSTICS
-#
-# REVISION NOTES:
-#   1. All standard errors / t-stats / F-stats that feed the main results
-#      table now use CRVE (cluster-robust variance, clustered by region) with
-#      the HC1 small-sample correction and t(G-1) critical values, instead of
-#      the previous non-clustered vcovHC() heteroskedasticity-robust SEs.
-#   2. A new unified first_stage_diagnostics() function reports the
-#      first-stage F-statistic together with BOTH an asymptotic CRVE p-value
-#      and a Webb wild-cluster-bootstrap p-value.
-#   3. The former standalone Tables 2 (First-Stage Instrument Strength) and
-#      5 (Anderson-Rubin weak-instrument-robust test) have been folded into
-#      Table 1: the First-stage F (CRVE) row now carries CRVE-based
-#      significance stars, and the Webb Bootstrap p-value row now shows the
-#      AR p-value beneath it for each IV specification. The former
-#      standalone Tables 3 (Leave-One-Region-Out Sensitivity) and 4
-#      (Regional Instrument Relevance) have been removed from current scope.
-#   4. Restricted wild cluster bootstrap (WCR) only is used throughout, per
-#      the decision to keep the second-stage bootstrap approach unchanged
-#      (no unrestricted WCU variant added).
-#   5. Panel B's dependent variable is now log(Real Wage) rather than the
-#      level (thousand AMD). This is the ONLY specification change beyond
-#      Notes 1-4 above -- Panels A, C, D keep real_wage_k as their control,
-#      unlogged, exactly as before. Panel B's coefficients are now
-#      approximate semi-elasticities (multiply by 100 for a % effect).
-# ==============================================================================
 
 # ==============================================================================
 # 0. INSTALL AND LOAD PACKAGES
@@ -44,65 +19,9 @@ library(lmtest)
 library(sandwich)
 library(AER)
 
-# ==============================================================================
-# DAG GENERATION (Optional, unchanged from original -- kept for reference only;
-# these objects are not used by the estimation pipeline below)
-# ==============================================================================
-col_causal     <- "#FF6666"
-col_outcome    <- "#66CC66"
-col_iv_control <- "#66B2FF"
-col_mechanism  <- "#FFB266"
-col_confounder <- "#FFD966"
-col_edge_iv    <- "#0073E6"
-
-color_mapping <- c(
-  "Causal Variable" = col_causal,
-  "Outcome" = col_outcome,
-  "IV / Controls" = col_iv_control,
-  "Mechanism (Supply/Demand)" = col_mechanism,
-  "Confounder" = col_confounder
-)
-
-plot_dag <- function(tidy_dag, title, show_legend = FALSE) {
-  p <- ggplot(tidy_dag, aes(x = x, y = y, xend = xend, yend = yend)) +
-    geom_dag_edges(aes(edge_colour = edge_color),
-                   edge_width = 0.8,
-                   arrow_directed = grid::arrow(length = grid::unit(4, "mm"), type = "closed"),
-                   start_cap = ggraph::circle(13, "mm"),
-                   end_cap = ggraph::circle(13, "mm")) +
-    geom_dag_node(aes(color = node_type), size = 26, alpha = 0.95) +
-    geom_text(aes(label = label), size = 2.8, fontface = "bold", color = "grey10") +
-    geom_text(aes(x = mid_x, y = mid_y, label = edge_label), color = col_edge_iv,
-              vjust = -0.8, size = 3.5, fontface = "italic", na.rm = TRUE) +
-    scale_color_manual(values = color_mapping, name = "Variable Type:") +
-    scale_edge_colour_identity() +
-    theme_dag() +
-    ggtitle(title) +
-    theme(plot.title = element_text(hjust = 0.5, face = "bold", size = 14),
-          legend.position = if (show_legend) "bottom" else "none",
-          legend.title = element_text(face = "bold"),
-          legend.text = element_text(size = 11))
-  return(p)
-}
-
-dag_a <- dagify(
-  Ref2023 ~ TempRef2020, Lab_SD ~ Ref2023, RealWages ~ Lab_SD,
-  URate ~ Lab_SD + RealWages + Controls + TempRef2020,
-  labels = c("TempRef2020" = "Temp Refugee\n(Bartik IV, 2020)", "Ref2023" = "Refugee Inflow\n(2023)",
-             "Lab_SD" = "Labour Supply\n& Demand", "RealWages" = "Real Wages",
-             "URate" = "Unemployment\nRate", "Controls" = "Region/Year FE\n& Trend"),
-  exposure = "Ref2023", outcome = "URate"
-)
-tidy_a <- tidy_dagitty(dag_a) %>% mutate(
-  node_type = case_when(name == "Ref2023" ~ "Causal Variable", name == "URate" ~ "Outcome",
-                        name %in% c("TempRef2020", "Controls") ~ "IV / Controls",
-                        name == "Lab_SD" ~ "Mechanism (Supply/Demand)", name == "RealWages" ~ "Confounder", TRUE ~ "Other"),
-  is_exclusion = (name == "TempRef2020" & to == "URate"), edge_color = ifelse(is_exclusion, col_edge_iv, "black"),
-  edge_label = ifelse(is_exclusion, "(Exclusion Restriction)", NA), mid_x = (x + xend) / 2, mid_y = (y + yend) / 2
-)
 
 # ==============================================================================
-# 1. PROCESS ARMSTAT DATA & BUILD PANEL   (unchanged from original)
+# 1. PROCESS ARMSTAT DATA & BUILD PANEL  
 # ==============================================================================
 unemp_df <- read_csv("PS-eu-1_20260307-032935.csv", skip = 2, show_col_types = FALSE) %>%
   filter(str_detect(indicators, "by RA marzes and Yerevan")) %>%
@@ -211,10 +130,6 @@ panel <- panel %>% left_join(iv_20_data, by = c("region" = "region_clean")) %>% 
 
 # ==============================================================================
 # 3. CORE CRVE / WILD CLUSTER BOOTSTRAP HELPERS
-#    CHANGED: get_G() added as a small utility; vcovCL() calls now explicit
-#    about type = "HC1". The second-stage bootstrap below was already
-#    correctly clustered in the original script (it used vcovCL()), so its
-#    logic is preserved with only clarity/consistency edits.
 # ==============================================================================
 
 # Number of clusters currently present in a (possibly filtered) data frame --
@@ -299,24 +214,12 @@ wild_cluster_boot_iv <- function(panel_data, iv_model,
 }
 
 # ==============================================================================
-# 4. FIRST-STAGE DIAGNOSTICS (NEW -- replaces run_first_stage_wcb + get_fs_pvals)
-#    This single function returns, for any (possibly region-filtered) panel
-#    and any treatment-timing specification:
-#      - F_crve    : first-stage F using CRVE (HC1-corrected), clustered by
-#                    region
-#      - F_hc1raw  : the ORIGINAL (uncorrected, non-clustered) F-statistic,
-#                    kept purely so it can be compared against F_crve
-#      - crve_p    : asymptotic p-value for F_crve, using the t(G-1)
-#                    reference distribution
-#      - webb_p    : Webb 6-point wild-cluster-bootstrap p-value for the same
-#                    null (instrument coefficient = 0)
-#      - G         : number of clusters actually used (drops to 10 whenever
-#                    a region is excluded in the leave-one-out diagnostic)
+# 4. FIRST-STAGE DIAGNOSTICS
 # ==============================================================================
 first_stage_diagnostics <- function(panel_data, treat_var, controls_str,
                                     B = 999, seed = 2023) {
   set.seed(seed)
-  panel_data$region_f <- droplevels(panel_data$region_f)  # avoid phantom empty factor levels
+  panel_data$region_f <- droplevels(panel_data$region_f) 
   cl <- panel_data$region_f
   G  <- length(levels(cl))
   ctrl_part <- if (controls_str != "") paste("+", controls_str) else ""
@@ -332,11 +235,6 @@ first_stage_diagnostics <- function(panel_data, treat_var, controls_str,
   t_obs  <- coef(m1)["treat_IV_20"] / sqrt(V1["treat_IV_20", "treat_IV_20"])
   F_crve <- as.numeric(t_obs^2)
   crve_p <- as.numeric(2 * pt(abs(t_obs), df = G - 1, lower.tail = FALSE))
-  
-  # --- Original, uncorrected (non-clustered) HC1 F-statistic, for comparison only ---
-  V1_raw   <- sandwich::vcovHC(m1, type = "HC1")
-  t_raw    <- coef(m1)["treat_IV_20"] / sqrt(V1_raw["treat_IV_20", "treat_IV_20"])
-  F_hc1raw <- as.numeric(t_raw^2)
   
   # --- Webb 6-point wild cluster bootstrap p-value ---
   u_tilde <- residuals(m0)
@@ -358,9 +256,6 @@ first_stage_diagnostics <- function(panel_data, treat_var, controls_str,
 
 # ==============================================================================
 # 5. PLACEBO TEST FUNCTION
-#    CHANGED: coeftest() now explicitly uses df = G-1 (computed per call via
-#    get_G(), since placebo panels can in principle have different cluster
-#    counts) instead of the previous default (large residual df).
 # ==============================================================================
 run_placebos <- function(data, dep_var, intensity_type, is_iv = FALSE, controls_str = "real_wage_k") {
   cat(sprintf("\n--- Placebo Tests for %s (Lags -1 to -10) ---\n", dep_var))
@@ -422,11 +317,6 @@ run_placebos <- function(data, dep_var, intensity_type, is_iv = FALSE, controls_
 
 # ==============================================================================
 # 6. MODEL ESTIMATION FUNCTION
-#    CHANGED: first-stage F-statistics REMOVED from this function. They are
-#    now computed once via first_stage_diagnostics() (Section 8 below) and
-#    shared across the main table and the new diagnostic tables, avoiding
-#    duplicate / inconsistent computations. This function now only fits the
-#    OLS and IV (second-stage) models themselves.
 # ==============================================================================
 estimate_models <- function(panel_data, dep_var, controls_str = "real_wage_k") {
   results <- list()
@@ -446,7 +336,7 @@ estimate_models <- function(panel_data, dep_var, controls_str = "real_wage_k") {
 }
 
 # ==============================================================================
-# 7. SECOND-STAGE (TREATMENT-EFFECT) WEBB BOOTSTRAP WRAPPER -- unchanged logic
+# 7. SECOND-STAGE (TREATMENT-EFFECT) WEBB BOOTSTRAP WRAPPER
 # ==============================================================================
 run_wcb_for_panel <- function(models, panel_data, dep_var, controls_str) {
   cat(sprintf("\n>>> Running Webb WCB (Second Stage) for %s ...\n", dep_var))
@@ -461,34 +351,6 @@ run_wcb_for_panel <- function(models, panel_data, dep_var, controls_str) {
 
 # ==============================================================================
 # 7B. WILD BOOTSTRAP ANDERSON-RUBIN (AR) TEST -- FUNCTION DEFINITIONS
-#    Positioned here (rather than after Table 1 is built) so that AR results
-#    are available in time: Table 1 now reports the AR p-value directly
-#    beneath the Webb Bootstrap p-value for each IV specification.
-#
-#    Motivation: the "2023 Only" specification has a first-stage F-statistic
-#    (CRVE) of 8.23, below the conventional strong-instrument rule of thumb
-#    (F > 10). The 2SLS Wald test (t-stat + wild cluster bootstrap, the
-#    "Webb Bootstrap p-value" row in Table 1) assumes the instrument is
-#    strong; if it is not, that test's size may not be reliable in that
-#    column. The Anderson-Rubin (AR) test targets H0: beta = 0 directly on
-#    the reduced-form moment condition and controls size regardless of
-#    instrument strength (Wang and Zhang, 2024, Theorem 6.1).
-#
-#    Because this design has a single endogenous regressor and a single
-#    instrument (d_x = d_z = 1), the unstudentized AR test (AR_n) and the
-#    CCE-studentized AR test (AR_CR,n) give IDENTICAL bootstrap p-values --
-#    proven directly in Wang and Zhang (2024), the remarks following
-#    Theorem 6.2 and Theorem 6.3. We therefore compute and report a single
-#    AR p-value per specification, not two.
-#
-#    A further practical simplification specific to the AR test: its
-#    studentizing quantity is invariant to the cluster-level sign flips used
-#    by the wild bootstrap (Section 6 of Wang and Zhang, 2024), so NO MODEL
-#    NEEDS TO BE RE-FIT on any bootstrap replication -- each replicate is
-#    just a random re-signing of eleven already-computed numbers. B = 9999
-#    replications therefore run in a fraction of a second, unlike the WCB
-#    tests elsewhere in this script (which do refit an IV model on every
-#    replicate).
 # ==============================================================================
 
 # Core AR test for a single specification. Tests H0: beta = beta0 (default 0)
@@ -567,11 +429,6 @@ run_ar_for_panel <- function(panel_data, dep_var, controls_str, B = 9999) {
 
 # ==============================================================================
 # 8. RUN CORE FIRST-STAGE DIAGNOSTICS ONCE
-#    These six calls are the single source of truth for: (a) the main
-#    table's "First-stage F" and "First-stage Webb p-value" rows, and (b) the
-#    CRVE-based significance stars now shown on that same F row. Computing
-#    them once and reusing the results avoids running the same bootstrap
-#    twice.
 # ==============================================================================
 cat("\n######################################################################\n")
 cat("# STEP 1: FIRST-STAGE DIAGNOSTICS (CRVE F-stat + CRVE p + Webb p)     #\n")
@@ -598,8 +455,6 @@ run_placebos(panel, "u_rate", "dynamic", is_iv = TRUE, controls_str = "real_wage
 
 # ==============================================================================
 # 10. PANEL B: DEPENDENT VARIABLE = LOG(REAL WAGE), 2008 base
-#    Changed from the level (thousand AMD) to natural log -- see Revision
-#    Note 5 above. Coefficients are now approximate semi-elasticities.
 # ==============================================================================
 cat("\n######################################################################\n")
 cat("# PANEL B: DEPENDENT VARIABLE = LOG(REAL WAGE), 2008 base            #\n")
@@ -798,36 +653,7 @@ writeLines(generate_html_doc(
 
 
 # ==============================================================================
-# 14. AR PLACEBO TESTS (NEW)
-#    Mirrors run_placebos() exactly in structure and lag logic, but uses the
-#    wild bootstrap Anderson-Rubin test (ar_test()) in place of the ivreg +
-#    CRVE + WCB pipeline. This checks whether the weak-IV-robust significance
-#    results now reported in Table 1 are contaminated by pre-existing
-#    differential trends, the same way run_placebos() already checks the
-#    standard Wald results.
-#
-#    Scope: run once per outcome panel (A-D), matching exactly how
-#    run_placebos() is already invoked for every panel elsewhere in this
-#    script (always with intensity_type = "dynamic").
-#
-#    A note on why there is no separate "static_23" / "static_24" AR placebo
-#    check: at beta0 = 0 (every placebo test's null), ar_test()'s
-#    null-restricted residual is dep_var - 0*treat_var = dep_var -- treat_var
-#    cancels out of the computation entirely. The AR test at this null is a
-#    pure reduced-form check of whether the instrument predicts the outcome;
-#    it never looks at the treatment variable. Since the instrument
-#    construction (placebo_iv) also does not vary by intensity_type -- it
-#    never did, even in the original run_placebos() -- the three
-#    intensity_type branches give numerically identical AR results. This was
-#    verified directly: an earlier version of this section included an
-#    additional "static_23" check for the flagged 2023-only specification,
-#    and it returned results identical to the "dynamic" check to 4 decimal
-#    places across all 10 lags, which is why it has been removed rather than
-#    kept as if it were a distinct test. This also explains why the original
-#    run_placebos() is, in practice, only ever called with
-#    intensity_type = "dynamic" throughout this script: there is no
-#    meaningful separate pre-treatment placebo construction tied to a
-#    post-treatment timing choice, for either test.
+# 14. AR PLACEBO TESTS
 # ==============================================================================
 run_ar_placebos <- function(data, dep_var, intensity_type = "dynamic", controls_str = "real_wage_k", B = 999) {
   cat(sprintf("\n--- AR Placebo Tests for %s (Lags -1 to -10) ---\n", dep_var))

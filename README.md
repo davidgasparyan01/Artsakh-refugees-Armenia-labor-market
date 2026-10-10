@@ -46,9 +46,26 @@ install.packages(c("dplyr", "tidyverse", "lmtest", "sandwich", "AER"))
 
 ## How to run
 
-1. Clone or download this repository and keep all files in one folder.
-2. Set your R working directory to that folder (the script reads the CSV files by relative path).
-3. Run `armenia_refugee_analysis.R`.
+The script reads the data files by relative path, so R's working directory
+must be the folder that contains them. The easiest way to do this is to
+create an RStudio project in that folder.
+
+1. **Download the files.** Click *Code → Download ZIP* on this page and
+   **extract** the ZIP to a folder on your computer. You can also clone the repository with Git.
+
+2. **Create an R project in that folder.** In RStudio:
+   - Go to *File → New Project…*
+   - Choose *Existing Directory*
+   - Click *Browse…* and select the extracted folder
+     (`Artsakh-refugees-Armenia-labor-market-main`, or the cloned folder)
+   - Click *Create Project*
+
+   RStudio reopens with the working directory set to that folder.
+   
+3. **Run the script.** Open `armenia_refugee_analysis.R` from the *Files*
+   pane and run the code.
+
+Next time, open the project by double-clicking the `.Rproj` file in the folder.
 
 The script runs in this order:
 
